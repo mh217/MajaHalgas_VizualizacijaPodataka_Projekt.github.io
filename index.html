@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Vizualizacija podataka</title>
+</head>
+
+<body>
+
+  <div class="uvod">
+    <nav class="nav">
+      <ul>
+        <li><a href="#map">Karta</a></li>
+        <li><a href="#pie">Odnos nezaposelnih po spolu</a></li>
+        <li><a href="#place">Plaće po djelatnostima</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+  <div class="map" id="map">
+    <div class="display">
+      <h2>Godina:</h2><h3 id="yearOutput"></h3>
+    </div>
+    <div class="slider-container">
+      <input type="range" min="2010" max="2023" value="2010" class="slider" id="slider" oninput="changeYear()" />
+    </div>
+
+    <div class="custom-select">
+      <select name="dropdown" id="dropdown">
+        <option value="stopa">Stopa zaposlenost</option>
+        <option value="nezaposlenost">Nezaposlenost</option>
+        <option value="aktivni_osiguranici">Aktivni osiguranici</option>
+        <option value="zaposleni_obrt">Zaposleni u obrtu</option>
+        <option value="zaposleni_pravnim_osobama">Zaposelni kod pravnih osoba</option>
+        <option value="aktivno_stanovnistvo">Aktivno stanovnistvo</option>
+        <option value="ukupno_zaposleni">Broj zaposlenih</option>
+      </select>
+    </div>
+    <div><h2>Naziv Županije:</h2> <h3 id="app" class="naziv"></h3></div>
+    <div class="mapa"></div>
+    <div class="legend-container"></div>
+  </div>
+  <div>
+    <div class="legend-bar"></div> 
+    <div class="bar-chart"></div>
+    <h3>Odabrana županija</h3>
+      <p id="zup"></p>
+  </div>
+</div>
+  <script type="text/javascript">
+
+    
+    var width = 700;
+    var height = 700;
+
+    var svg = d3.select(".mapa").select("svg");
+    svg = d3.select(".mapa").append("svg")
+              .attr("width", 960)
+              .attr("height", 700);
+
+    var g = svg.select("g");
+    g = svg.append("g");
+
+    var projection = d3.geo.mercator()
+        .center([0, 10])
+        .scale(6000)
+        .translate([17600, 4500])
+        .rotate([-180, 0]);      
+
+    var path = d3.geo.path()
+        .projection(projection);
+
+    const slider = document.getElementById("slider");
+    slider.addEventListener("change", changeYear);
+    const selectOption = document.getElementById("dropdown")
+    selectOption.addEventListener("change",changeYear)
+
+    var defs = svg.append("defs");
+    var linearGradient = defs.append("linearGradient")
+        .attr("id", "linear-gradient");
+
+    //Karta 
+    function changeYear() {
+      var year = slider.value;
+      var yearString = `God_${year}`;
+      d3.select("#yearOutput").text(year);
+      var selectedValue = (selectOption.value).toString()
+      
+      d3.json("trueData.json", function (data) {
+        var zupanija = data;
+
+        d3.json("cro_regv3.json", function (error, cro) {
+          if (error) {
+            console.error("Error loading cro_regv3.json:", error);
+            return;
+          }
+          
+          var data = topojson.feature(cro, cro.objects.layer1);
+          var myColor1 = d3.scale.linear().domain([1, d3.max(zupanija, function(d) {return d3.max(Object.values(d.stopa));})])
+            .range(["royalblue", "crimson"]);
+          
+          var myColor2 = d3.scale.linear().domain([1500, 30000])
+            .range(["brown", "cornflowerblue"]);
+          
+          var myColor3 = d3.scale.linear().domain([10, 3000])
+            .range(["firebrick", "darkseagreen"]);
+          
+          var myColor4 = d3.scale.linear().domain([950, 15000])
+            .range(["darkslateblue", "lightgoldenrodyellow"]);
+          
+          var myColor5 = d3.scale.linear().domain([8000, 90000])
+            .range(["indigo", "antiquewhite"]);
+          
+          var myColor6 = d3.scale.linear().domain([1, 100000])
+            .range(["steelblue", "darkred"]);
+          
+          var myColor7 = d3.scale.linear().domain([1, 90000])
+            .range(["palegreen", "palevioletred"]);
+          
+          var counties = g.selectAll("path.county")
+            .data(data.features);
+
+          counties.enter().append("path")
+            .attr("class", "county")
+            .attr("id", function (d) { return d.id; })
+            .attr("d", path)
+            .style("stroke", "black")
+            .style("stroke-width", 1)
+            .style("stroke-opacity", 1)
+            .on("click", function(d) {
+              d3.select(".bar-chart").selectAll("*").remove();   
+              createBar(d.id, zupanija); 
+              d3.select("#zup").text(d.properties.name);
+            })
+            .on("mouseover", function (d) {
+              d3.select("#app").text(d.properties.name);
+            });
+            
+          if(selectedValue == "stopa") {
+            counties
+              .transition()
+              .duration(500)
+              .attr("d", path)
+              .style("fill", function (d) {
+                const countyID = d.id;
+                const stopaValue = zupanija.find(x => x.id == countyID).stopa[yearString];
+                return stopaValue ? myColor1(stopaValue) : "lightgray"; 
+              });
+              changeLegendColor("royalblue", "crimson", 3 ,d3.max(zupanija, function(d) {return d3.max(Object.values(d.stopa));}))
+          }
+          if(selectedValue == "nezaposlenost") {
+            counties
+            .transition()
+            .duration(500)
+            .attr("d", path)
+            .style("fill", function (d) {
+              const countyID = d.id;
+              const stopaValue = zupanija.find(x => x.id == countyID).nezaposlenost[yearString];
+              return stopaValue ? myColor2(stopaValue) : "lightgray"; 
+            });
+            changeLegendColor("brown", "cornflowerblue", 1500, 30000)
+            
+          }
+          if(selectedValue == "aktivni_osiguranici") {
+            counties
+            .transition()
+            .duration(500)
+            .attr("d", path)
+            .style("fill", function (d) {
+              const countyID = d.id;
+              const stopaValue = zupanija.find(x => x.id == countyID).aktivni_osiguranici[yearString];
+              return stopaValue ? myColor3(stopaValue) : "lightgray"; 
+            });
+            changeLegendColor("firebrick", "darkseagreen", 10, 3000)
+            
+          }
+          if(selectedValue == "zaposleni_obrt") {
+            counties
+            .transition()
+            .duration(500)
+            .attr("d", path)
+            .style("fill", function (d) {
+              const countyID = d.id;
+              const stopaValue = zupanija.find(x => x.id == countyID).zaposleni_obrt[yearString];
+              return stopaValue ? myColor4(stopaValue) : "lightgray"; 
+            });
+            changeLegendColor("darkslateblue", "lightgoldenrodyellow", 950, 20000)
+            
+          }
+          if(selectedValue == "zaposleni_pravnim_osobama") {
+            counties
+            .transition()
+            .duration(500)
+            .attr("d", path)
+            .style("fill", function (d) {
+              const countyID = d.id;
+              const stopaValue = zupanija.find(x => x.id == countyID).zaposleni_pravnim_osobama[yearString];
+              return stopaValue ? myColor5(stopaValue) : "lightgray"; 
+            });
+            changeLegendColor("indigo", "antiquewhite",8000, 90000)
+            
+          }
+          if(selectedValue == "aktivno_stanovnistvo") {
+            counties
+            .transition()
+            .duration(500)
+            .attr("d", path)
+            .style("fill", function (d) {
+              const countyID = d.id;
+              const stopaValue = zupanija.find(x => x.id == countyID).aktivno_stanovnistvo[yearString];
+              return stopaValue ? myColor6(stopaValue) : "lightgray"; 
+            });
+            changeLegendColor("steelblue", "darkred", 12000, 100000)
+            
+          }
+          if(selectedValue == "ukupno_zaposleni") {
+            counties
+            .transition()
+            .duration(500)
+            .attr("d", path)
+            .style("fill", function (d) {
+              const countyID = d.id;
+              const stopaValue = zupanija.find(x => x.id == countyID).ukupno_zaposleni[yearString];
+              return stopaValue ? myColor7(stopaValue) : "lightgray"; 
+            });
+            changeLegendColor("palegreen", "palevioletred", 10000, 90000)
+          } 
+          counties.exit().remove();
+        });
+      });
+    }
+
+    function changeLegendColor(color1, color2, domain1, domain2) {
+    d3.select(".legend-container").selectAll("*").remove(); 
+
+    var svgLegend = d3.select(".legend-container").append("svg")
+      .attr("width", 520)
+      .attr("height", 50)
+      .attr("stroke", "black")
+
+    var defs = svgLegend.append("defs");
+
+    var linearGradient = defs.append("linearGradient")
+      .attr("id", "linear-gradient-legend");
+
+    linearGradient.append("stop")
+      .attr("offset", "0%")
+      .attr("stop-color", color1);
+
+    linearGradient.append("stop")
+      .attr("offset", "100%")
+      .attr("stop-color", color2);
+
+    svgLegend.append("rect")
+      .attr("x", 10)
+      .attr("y", 10)
+      .attr("width", 500)
+      .attr("height", 20)
+      .style("fill", "url(#linear-gradient-legend)");
+
+    var domainNumberGroup = svgLegend.append("g")
+      .attr("transform", "translate(10, 35)");
+
+    domainNumberGroup.selectAll("text")
+      .data([domain1, domain2])
+      .enter()
+      .append("text")
+      .attr("x", (d, i) => i * 500)
+      .attr("y", 0)
+      .attr("dy", "1em")
+      .attr("text-anchor", (d, i) => i === 0 ? "start" : "end")
+      .style("font-size", "12px")
+      .text(d => d);
+  }
+
+    changeYear();
+
+  </script>
+
+  <script>
+    function createBar(id, zupanija) {
+
+      const selectOption = document.getElementById("dropdown")
+      selectOption.addEventListener("change",changeYear)
+      var selectedValue = (selectOption.value).toString()
+      var selectedText = selectOption.options[selectOption.selectedIndex].text;
+
+        var data = zupanija.find(x => x.id == id).aktivno_stanovnistvo
+        var selectedData = zupanija.find(x => x.id == id)[selectedValue];
+        var trueData = [];
+        var trueSelectedData = [];
+        
+        for(var i = 10; i < 24; i++) {
+          var proba = `God_20${i}`;
+          trueData.push({godine: proba, data :data[proba]})
+          trueSelectedData.push({ godine: proba, data: selectedData[proba] });
+          
+        }
+
+        var dataa = trueData.map(function(d){return d.data})
+        var godina = trueData.map(function(d) {return d.godine})
+        var selectedDataArray = trueSelectedData.map(function (d) { return d.data });
+        
+        var margin = {top: 50, bottom: 100, left: 100, right: 20}; 
+        var width = 650 - margin.left - margin.right;
+        var height = 450 - margin.top - margin.bottom;
+        var barPadding = 4;
+        var barWidth = width / 14 - barPadding;
+
+        var x = d3.scale.ordinal()
+          .domain(godina)
+          .rangeRoundBands([0, width]);
+
+        var y = d3.scale.linear()
+            .domain([0, d3.max(dataa)])
+            .range([height, 0]);
+
+        var svg = d3.select(".bar-chart")
+          .append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+          .attr("align", "center")
+
+      var xAxis = d3.svg.axis()
+          .scale(x)
+          .orient("bottom");
+
+      var yAxis = d3.svg.axis()
+          .scale(y)
+          .orient("left")
+          .ticks(10);
+
+      svg.append("g")
+          .attr("class", "x axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(xAxis)
+          .selectAll("text")
+          .style("text-anchor", "end")
+          .attr("dx", "-.8em")
+          .attr("dy", ".15em")
+          .attr("transform", function(d) {
+              return "rotate(-65) translate(-10,10)";
+          });
+
+      svg.append("g")
+          .attr("class", "y axis")
+          .call(yAxis)
+          .append("text")
+          .attr("y", 6)
+          .attr("transform", "translate(-90,-10) rotate(-90)")
+          .attr("dy", ".71em")
+          .style("text-anchor", "end")
+          .text("Aktivno stanovništvo")
+        
+      var barchart = svg.selectAll("rect")
+          .data(dataa)
+          .enter()
+          .append("rect")
+          .attr("x", function(d, i) { return x(godina[i]) })
+          .attr("y", height)
+          .attr("height", 0)
+          .attr("width", barWidth)
+          .attr("fill", "royalblue")
+          .transition()
+          .duration(500)
+          .attr("y", function(d) { return y(d); })
+          .attr("height", function(d) { return height - y(d); });
+
+      var barchartSelected = svg.selectAll("rect.selected")
+        .data(selectedDataArray)
+        .enter()
+        .append("rect")
+        .attr("class", "selected")
+        .attr("x", function (d, i) { return x(godina[i]) + barWidth / 2 })
+        .attr("y", height)
+        .attr("height", 0)
+        .attr("width", barWidth/2 )
+        .attr("fill", "orange")
+        .transition()
+        .duration(500)
+        .attr("y", function (d) { return y(d); })
+        .attr("height", function (d) { return height - y(d); });
+
+      var legendDiv = d3.select(".legend-bar");
+        legendDiv.html("");
+
+      var legendItem1 = legendDiv.append("div")
+        .style("display", "flex")
+        .style("align-items", "center");
+
+      legendItem1.append("div")
+        .style("width", "18px")
+        .style("height", "18px")
+        .style("background-color", "royalblue")
+        .style("margin-right", "8px");
+
+      legendItem1.append("div")
+        .text("Aktivno stanovništvo");
+
+      var legendItem2 = legendDiv.append("div")
+        .style("display", "flex")
+        .style("align-items", "center")
+        .style("margin-top", "8px");
+
+      legendItem2.append("div")
+        .style("width", "18px")
+        .style("height", "18px")
+        .style("background-color", "orange")
+        .style("margin-right", "8px");
+
+      legendItem2.append("div")
+        .text(selectedText);
+    }
+  </script>
+
+  <div class="pie-chart" id="pie">
+    <div><h1>Odnos nezaposelnih po spolu</h1></div>
+    <div class="custom-select">
+      <select name="dropdown-zup" id="dropdown-zup">
+        <option value="RH">Republika Hrvatska</option>
+        <option value="BB">Bijelovarsko - bilogorska županija</option>
+        <option value="BP">Brodsko - posavska županija</option>
+        <option value="DN">Dubrovačko - neretvanska županija</option>
+        <option value="GZ">Grad Zagreb</option>
+        <option value="IS">Istarska županija</option>
+        <option value="KA">Karlovačka županija</option>
+        <option value="KK">Koprivničko - križevačka županija</option>
+        <option value="KZ">Krapinsko - zagorska županija</option>
+        <option value="LS">Ličko-senjska županija</option>
+        <option value="ME">Međimurska županija</option>
+        <option value="OB">Osječko - baranjska županija</option>
+        <option value="PZ">Požesko-slavonska županija</option>
+        <option value="PG">Primorsko - goranska županija</option>
+        <option value="SM">Sisačko - moslavačka županija</option>
+        <option value="SD">Splitsko - dalmatinska županija</option>
+        <option value="SK">Šibensko - kninska županija</option>
+        <option value="VZ">Varaždinska županija</option>
+        <option value="VP">Virovitičko - podravska županija</option>
+        <option value="VS">Vukovasko - srijemska županija</option>
+        <option value="ZD">Zadarska županija</option>
+        <option value="ZG">Zagrebačka županija</option>
+      </select>
+    </div>
+
+    <div class="custom-select">
+      <select name="dropdown-god" id="dropdown-god">
+        <option value="2019_">2019</option>
+        <option value="2020_">2020</option>
+        <option value="2021_">2021</option>
+        <option value="2022_">2022</option>
+      </select>
+    </div>
+    <div class="legend-char"></div>
+
+    <div class="piechart"></div>
+  </div>
+
+  <script>
+
+    const selectZup = document.getElementById("dropdown-zup")
+    selectZup.addEventListener("change", function() {
+      createPieChart()
+    })
+
+    const selectGod = document.getElementById("dropdown-god")
+    selectGod.addEventListener("change",function() {
+      createPieChart()
+    })
+
+    createPieChart();
+
+    var width = 700;
+    var height = 700;
+  
+    function createPieChart() {
+      d3.select(".piechart").selectAll("*").remove();  
+        var selVal = selectZup.value.toString();
+        var selGod = selectGod.value.toString();
+        var maleString = `${selGod}MALE`;
+        var femaleString = `${selGod}FEMALE`;
+
+        var arc = d3.svg.arc()
+          .outerRadius(200)
+          .innerRadius(0);
+
+        var color = d3.scale.category20().range(["#5AB2FF", "#AD88C6"]);
+
+        d3.json("trueData.json", function(error, data) {
+          if (error) throw error;
+
+          var maleData = data.find(x => x.id == selVal).udio_reg_nezaposlenosti[maleString];
+          var femaleData = data.find(x => x.id == selVal).udio_reg_nezaposlenosti[femaleString];
+
+          var combinedData = [
+            {name: "MALE", value: maleData},
+            {name: "FEMALE", value: femaleData},
+          ];
+
+          var pie = d3.layout.pie().value(function(d) {
+            return d.value;
+          });
+
+          var svg = d3.select(".piechart").select("svg");
+          if (svg.empty()) {
+            svg = d3.select(".piechart")
+              .append("svg")
+              .attr("width", width)
+              .attr("height", height);
+          }
+
+          var pieArcs = svg.selectAll("g.pie")
+            .data(pie(combinedData));
+
+          pieArcs.exit().remove(); 
+
+          var newPieArcs = pieArcs.enter()
+            .append("g")
+            .attr("class", "pie")
+            .attr("transform", "translate(" + (width / 2) + ", " + (height / 2) + ")");
+
+          newPieArcs.append("path")
+            .attr("fill", function(d, i) { return color(i); })
+            .transition()
+            .duration(500)
+            .attrTween("d", function(d) {
+              var interpolate = d3.interpolate({ startAngle: 0, endAngle: 0 }, d);
+              return function(t) {
+                return arc(interpolate(t));
+              };
+            });
+
+          newPieArcs.append("text")
+            .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+            .attr("text-anchor", "middle")
+            .text(function(d) { return d.value + "%"; })
+            .style("opacity", 0) 
+            .transition()
+            .duration(500)
+            .style("opacity", 1); 
+            var legend = d3.select(".legend-chart").selectAll('.legend')
+            .data(combinedData);
+
+          var legendChar = d3.select(".legend-char");
+            legendChar.html("");
+
+          var legend1 = legendChar.append("div")
+            .style("display", "flex")
+            .style("align-items", "center");
+
+          legend1.append("div")
+            .style("width", "18px")
+            .style("height", "18px")
+            .style("background-color", "#5AB2FF")
+            .style("margin-right", "8px");
+
+          legend1.append("div")
+            .text("Muški");
+
+          var legend2 = legendChar.append("div")
+            .style("display", "flex")
+            .style("align-items", "center")
+            .style("margin-top", "8px");
+
+          legend2.append("div")
+            .style("width", "18px")
+            .style("height", "18px")
+            .style("background-color", "#AD88C6")
+            .style("margin-right", "8px");
+
+          legend2.append("div")
+            .text("Ženski");   
+        });
+    }
+  </script>
+
+  <div class="custom-select">
+    <div id="place"><h1>Plaće po djelatnostima</h1></div>
+    <select name="dropdown-zupanija" id="dropdown-zupanija">
+      <option value="RH">Republika Hrvatska</option>
+      <option value="BB">Bijelovarsko - bilogorska županija</option>
+      <option value="BP">Brodsko - posavska županija</option>
+      <option value="DN">Dubrovačko - neretvanska županija</option>
+      <option value="GZ">Grad Zagreb</option>
+      <option value="IS">Istarska županija</option>
+      <option value="KA">Karlovačka županija</option>
+      <option value="KK">Koprivničko - križevačka županija</option>
+      <option value="KZ">Krapinsko - zagorska županija</option>
+      <option value="LS">Ličko-senjska županija</option>
+      <option value="ME">Međimurska županija</option>
+      <option value="OB">Osječko - baranjska županija</option>
+      <option value="PZ">Požesko-slavonska županija</option>
+      <option value="PG">Primorsko - goranska županija</option>
+      <option value="SM">Sisačko - moslavačka županija</option>
+      <option value="SD">Splitsko - dalmatinska županija</option>
+      <option value="SK">Šibensko - kninska županija</option>
+      <option value="VZ">Varaždinska županija</option>
+      <option value="VP">Virovitičko - podravska županija</option>
+      <option value="VS">Vukovasko - srijemska županija</option>
+      <option value="ZD">Zadarska županija</option>
+      <option value="ZG">Zagrebačka županija</option>
+    </select>
+  </div>
+  <button class="djelatnosti" data-value="0" style="background-color:  #dfa837;">Ukupno</button>
+  <button class="djelatnosti" data-value="1" style="background-color:  #da963b;">A: Poljoprivreda, šumarstvo i ribarstvo</button>
+  <button class="djelatnosti" data-value="2" style="background-color:  #d4843e;">B: Rudarstvo i vađenje</button>
+  <button class="djelatnosti" data-value="3" style="background-color:  #c06a3c;">C: Prerađivačka industrija</button>
+  <button class="djelatnosti" data-value="4" style="background-color:  #a34936;">D: Opskrba električnom energijom, plinom, parom i klimatizacija</button>
+  <button class="djelatnosti" data-value="5" style="background-color:  #882f33;">E: Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša</button>
+  <button class="djelatnosti" data-value="6" style="background-color:  #7b3848;">F: Građevinarstvo</button>
+  <button class="djelatnosti" data-value="7" style="background-color:  #6b405e;">G: Trgovina na veliko i na malo; popravak motornih vozila i motocikla</button>
+  <button class="djelatnosti" data-value="8" style="background-color:  #5e446a;">H: Prijevoz i skladištenje</button>
+  <button class="djelatnosti" data-value="9" style="background-color:  #534873;">I: Djelatnosti pružanja smještaja te pripreme i usluživanja hrane</button>
+  <button class="djelatnosti" data-value="10" style="background-color: #4f537e;">J: Informacije i komunikacije</button>
+  <button class="djelatnosti" data-value="11" style="background-color: #60748f;">K: Financijske djelatnosti i djelatnosti osiguranja</button>
+  <button class="djelatnosti" data-value="12" style="background-color: #6f96a0;">L: Poslovanje nekretninama</button>
+  <button class="djelatnosti" data-value="13" style="background-color: #6f8e88;">M: Stručne, znanstvene i tehničke djelatnosti</button>
+  <button class="djelatnosti" data-value="14" style="background-color: #6f8e88;">N: Administrativne i pomoćne uslužne djelatnosti</button>
+  <button class="djelatnosti" data-value="15" style="background-color: #6a7e6b;">O: Javna uprava i obrana; obvezno socijalno osiguranje</button>
+  <button class="djelatnosti" data-value="16" style="background-color: #6b7955;">P: Obrazovanje</button>
+  <button class="djelatnosti" data-value="17" style="background-color: #747f46;">Q: Djelatnosti zdravstvene zaštite i socijalne skrbi</button>
+  <button class="djelatnosti" data-value="18" style="background-color: #7c8635;">R: Umjetnost, zabava i rekreacija</button>
+  <button class="djelatnosti" data-value="19" style="background-color: #7c8635;">S: Ostale uslužne djelatnosti</button>
+
+  <div class = "line-graph">
+    
+  </div>
+  <script>
+
+    const selectZupanija = document.getElementById("dropdown-zupanija")
+    selectZupanija.addEventListener("change", function(d) {
+      svg.selectAll("*").remove(); 
+      createLine();
+    })
+    const djelatnosti = document.querySelectorAll('.djelatnosti')
+    djelatnosti.forEach(function(button) {
+    button.addEventListener('click', function() {
+      var selectDijelatnost = button.getAttribute('data-value');
+      const selectedColor = button.style.backgroundColor;
+      svg.selectAll("*").remove(); 
+        createLine(selectDijelatnost, selectedColor);
+    });
+});
+    
+    var margin = { top: 30, bottom: 80, left: 70, right: 20 };
+    var width = 1000 - margin.left - margin.right;
+    var height = 600 - margin.top - margin.bottom;
+
+    var svg = d3.select(".line-graph")
+      .append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.bottom + margin.top)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    function createLine(selectedDijelatnost, color) {
+      var selectedValue = (selectZupanija.value).toString()
+      svg.selectAll("text.label").remove();
+
+    d3.json("trueData.json", function(error, data) {
+        if (error) throw error;
+
+        var lineData = [];
+
+      for(var i =0; i<4; i++) {
+        var godinaPretraga = `God_202${i}`;
+        var godinaZaPrikaz = (`202${i}`);
+        var partData = (data.find(x => x.id == selectedValue).placa_prema_dijelatnostima[selectedDijelatnost]) 
+        lineData.push({godine: godinaZaPrikaz, data :partData[godinaPretraga]})
+      }
+
+      var forLinedata = lineData.map(function(d){return d.data})
+      var godine = lineData.map(function(d) {return d.godine})
+      
+      var x = d3.scale.ordinal()
+        .domain(godine)
+        .rangePoints([0, width])
+
+      var y = d3.scale.linear()
+        .domain([0,3000])
+        .range([height,0])
+      
+      var xAxis = d3.svg.axis()
+          .scale(x)
+          .orient("bottom")
+          
+      var yAxis = d3.svg.axis()
+          .scale(y)
+          .orient("left")
+          .ticks(10);
+
+      svg.append("g")
+          .attr("class", "x axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(xAxis)
+          .selectAll("text")
+          .style("text-anchor", "end")
+          .attr("dx", "-.8em")
+          .attr("dy", ".15em")
+          .attr("transform", function(d) {
+              return "rotate(-65)";
+          });
+
+      svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
+        .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 6)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("Vrijednost (€)");
+
+      var valueline = d3.svg.line()
+        .x(function (d, i) { return x(godine[i]); })
+        .y(function (d) { return y(d); });
+      
+      var linechart = svg.append("path")
+        .attr("class", "line")
+        .attr("d", valueline(forLinedata))
+        .style("stroke", color)
+        .style("fill", "none")
+        .style("stroke-width", 3)
+        
+      svg.selectAll("dot")
+        .data(lineData)
+        .enter().append("circle")
+        .attr("r", 3)
+        .attr("cx", function(d, i) { return x(d.godine); })
+        .attr("cy", function(d) { return y(d.data); })
+        .style("fill", "black");
+
+      svg.selectAll("text.label")
+        .data(lineData)
+        .enter().append("text")
+        .attr("class", "label")
+        .attr("x", function(d, i) { return x(d.godine); })
+        .attr("y", function(d) { return y(d.data) - 10; }) 
+        .style("text-anchor", "middle")
+        .style("fill", "red")
+        .style("font-weight", "bold")
+        .text(function(d) { return d.data; })
+    });
+  }
+  createLine()
+  </script>
+</body>
+</html>

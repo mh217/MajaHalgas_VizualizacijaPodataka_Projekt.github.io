@@ -1,0 +1,5876 @@
+[
+        { 
+          "id": "RH",
+          "stopa" : {
+            "God_2010": 18.2,
+            "God_2011": 19.1,
+            "God_2012": 19.7,
+            "God_2013": 21.5,
+            "God_2014": 22.2,
+            "God_2015": 19.3222669952,
+            "God_2016": 16.9437228057,
+            "God_2017": 13.9440552565,
+            "God_2018": 11.1,
+            "God_2019": 9.1,
+            "God_2020": 8.9,
+            "God_2021": 9.4,
+            "God_2022": 7.6,
+            "God_2023": 6.6
+          }, 
+          "nezaposlenost": {
+              "God_2010": 318658,
+              "God_2011": 330130,
+              "God_2012": 339882,
+              "God_2013": 368558,
+              "God_2014": 376866,
+              "God_2015": 319211,
+              "God_2016": 276406,
+              "God_2017": 224068,
+              "God_2018": 177973,
+              "God_2019": 145801,
+              "God_2020": 143461,
+              "God_2021": 155588,
+              "God_2022": 125604,
+              "God_2023": 111980
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 32882,
+            "God_2011": 31203,
+            "God_2012": 29564,
+            "God_2013": 26336,
+            "God_2014": 23223,
+            "God_2015": 21447,
+            "God_2016": 20075,
+            "God_2017": 19644,
+            "God_2018": 19492,
+            "God_2019": 19412,
+            "God_2020": 19181,
+            "God_2021": 19101,
+            "God_2022": 18761,
+            "God_2023": 18487
+          },
+          "zaposleni_obrt": {
+            "God_2010": 227764,
+            "God_2011": 214022,
+            "God_2012": 205072,
+            "God_2013": 198415,
+            "God_2014": 189878,
+            "God_2015": 184328,
+            "God_2016": 183776,
+            "God_2017": 181777,
+            "God_2018": 182357,
+            "God_2019": 183356,
+            "God_2020": 181959,
+            "God_2021": 184610,
+            "God_2022": 189458,
+            "God_2023": 192671
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 1166807,
+            "God_2011": 1150307,
+            "God_2012": 1148525,
+            "God_2013": 1122885,
+            "God_2014": 1109461,
+            "God_2015": 1127051,
+            "God_2016": 1151061,
+            "God_2017": 1181418,
+            "God_2018": 1228424,
+            "God_2019": 1255691,
+            "God_2020": 1273214,
+            "God_2021": 1289283,
+            "God_2022": 1316990,
+            "God_2023": 1366142
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 1746111,
+            "God_2011": 1725662,
+            "God_2012": 1723043,
+            "God_2013": 1716194,
+            "God_2014": 1699428,
+            "God_2015": 1652037,
+            "God_2016": 1631318,
+            "God_2017": 1606907,
+            "God_2018": 1608246,
+            "God_2019": 1604260,
+            "God_2020": 1617815,
+            "God_2021": 1648582,
+            "God_2022": 1650813,
+            "God_2023": 1689280
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 1427453,
+            "God_2011": 1395532,
+            "God_2012": 1383161,
+            "God_2013": 1347636,
+            "God_2014": 1322562,
+            "God_2015": 1332826,
+            "God_2016": 1354912,
+            "God_2017": 1382839,
+            "God_2018": 1430273,
+            "God_2019": 1458459,
+            "God_2020": 1474354,
+            "God_2021": 1492994,
+            "God_2022": 1525209,
+            "God_2023": 1577300
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 44.6,
+            "2020_FEMALE": 55.4,
+            "2021_MALE": 44.6,
+            "2021_FEMALE": 55.4,
+            "2022_MALE": 42.6,
+            "2022_FEMALE": 57.4,
+            "2019_MALE": 44.4,
+            "2019_FEMALE": 55.6
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1223,
+              "God_2021": 1274,
+              "God_2022": 1380,
+              "God_2023": 1584
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1030,
+              "God_2021": 1058,
+              "God_2022": 1171,
+              "God_2023": 1363
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1317,
+              "God_2021": 1363,
+              "God_2022": 1446,
+              "God_2023": 1645
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1123,
+              "God_2021": 1167,
+              "God_2022": 1273,
+              "God_2023": 1448
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1570,
+              "God_2021": 1632,
+              "God_2022": 1680,
+              "God_2023": 1823
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1122,
+              "God_2021": 1153,
+              "God_2022": 1217,
+              "God_2023": 1367
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 963,
+              "God_2021": 999,
+              "God_2022": 1089,
+              "God_2023": 1277
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 1081,
+              "God_2021": 1136,
+              "God_2022": 1247,
+              "God_2023": 1425
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1156,
+              "God_2021": 1184,
+              "God_2022": 1294,
+              "God_2023": 1488
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 912,
+              "God_2021": 968,
+              "God_2022": 1110,
+              "God_2023": 1285
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1739,
+              "God_2021": 1855,
+              "God_2022": 2059,
+              "God_2023": 2303
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1802,
+              "God_2021": 1837,
+              "God_2022": 1970,
+              "God_2023": 2162
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 1137,
+              "God_2021": 1198,
+              "God_2022": 1294,
+              "God_2023": 1488
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1384,
+              "God_2021": 1449,
+              "God_2022": 1557,
+              "God_2023": 1767
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 910,
+              "God_2021": 928,
+              "God_2022": 1045,
+              "God_2023": 1234
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1441,
+              "God_2021": 1491,
+              "God_2022": 1597,
+              "God_2023": 1862
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1318,
+              "God_2021": 1394,
+              "God_2022": 1465,
+              "God_2023": 1663
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1503,
+              "God_2021": 1585,
+              "God_2022": 1683,
+              "God_2023": 1962
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1130,
+              "God_2021": 1181,
+              "God_2022": 1272,
+              "God_2023": 1461
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 981,
+              "God_2021": 992,
+              "God_2022": 1115,
+              "God_2023": 1295
+            }
+          ]
+        }, 
+        {  
+           "id": "ZG",
+            "stopa" : {
+                "God_2010": 16.3126075822,
+                "God_2011": 18.0168419701,
+                "God_2012": 18.5756446436,
+                "God_2013": 21.454679907,
+                "God_2014": 21.9,
+                "God_2015": 18.1719132209,
+                "God_2016": 15.1479633533,
+                "God_2017": 11.2600150502,
+                "God_2018": 8,
+                "God_2019": 6.3,
+                "God_2020": 5.8,
+                "God_2021": 6.7,
+                "God_2022": 4.9,
+                "God_2023": 4.4
+            }, 
+            "nezaposlenost": {
+                "God_2010": 15542,
+                "God_2011": 16838,
+                "God_2012": 17246,
+                "God_2013": 20309,
+                "God_2014": 20519,
+                "God_2015": 17012,
+                "God_2016": 14087,
+                "God_2017": 10175,
+                "God_2018": 7161,
+                "God_2019": 5761,
+                "God_2020": 5824,
+                "God_2021": 6932,
+                "God_2022": 5147,
+                "God_2023": 4829
+            }, 
+            "aktivni_osiguranici": {
+              "God_2010": 3003,
+              "God_2011": 2775,
+              "God_2012": 2510,
+              "God_2013": 2100,
+              "God_2014": 1819,
+              "God_2015": 1617,
+              "God_2016": 1523,
+              "God_2017": 1434,
+              "God_2018": 1378,
+              "God_2019": 1312,
+              "God_2020": 1283,
+              "God_2021": 1217,
+              "God_2022": 1112,
+              "God_2023": 1098
+            },
+            "zaposleni_obrt": {
+              "God_2010": 16031,
+              "God_2011": 14809,
+              "God_2012": 14189,
+              "God_2013": 13486,
+              "God_2014": 12636,
+              "God_2015": 12302,
+              "God_2016": 12273,
+              "God_2017": 12011,
+              "God_2018": 11930,
+              "God_2019": 11977,
+              "God_2020": 11917,
+              "God_2021": 11979,
+              "God_2022": 12109,
+              "God_2023": 12141
+            }, 
+            "zaposleni_pravnim_osobama": {
+              "God_2010": 60700,
+              "God_2011": 59035,
+              "God_2012": 58897,
+              "God_2013": 58765,
+              "God_2014": 58648,
+              "God_2015": 62686,
+              "God_2016": 65113,
+              "God_2017": 66744,
+              "God_2018": 69293,
+              "God_2019": 71930,
+              "God_2020": 81621,
+              "God_2021": 84035,
+              "God_2022": 86408,
+              "God_2023": 90545
+            }, 
+            "aktivno_stanovnistvo" : {
+              "God_2010": 95276,
+              "God_2011": 93457,
+              "God_2012": 92842,
+              "God_2013": 94660,
+              "God_2014": 93622,
+              "God_2015": 93617,
+              "God_2016": 92996,
+              "God_2017": 90364,
+              "God_2018": 89762,
+              "God_2019": 90980,
+              "God_2020": 100645,
+              "God_2021": 104163,
+              "God_2022": 104776,
+              "God_2023": 108613
+            },
+            "ukupno_zaposleni" : {
+              "God_2010": 79734,
+              "God_2011": 76619,
+              "God_2012": 75596,
+              "God_2013": 74351,
+              "God_2014": 73103,
+              "God_2015": 76605,
+              "God_2016": 78909,
+              "God_2017": 80189,
+              "God_2018": 82601,
+              "God_2019": 85219,
+              "God_2020": 94821,
+              "God_2021": 97231,
+              "God_2022": 99629,
+              "God_2023": 103784
+            }, 
+            "udio_reg_nezaposlenosti": {
+              "2020_MALE": 47.1,
+              "2020_FEMALE": 52.9,
+              "2021_MALE": 47.2,
+              "2021_FEMALE": 52.9,
+              "2022_MALE": 46.2,
+              "2022_FEMALE": 53.8,
+              "2019_MALE": 46.8,
+              "2019_FEMALE": 53.2
+            },
+            "placa_prema_dijelatnostima": [
+              {
+                "dijelatnosti": "Ukupno",
+                "God_2020": 1224,
+                "God_2021": 1280,
+                "God_2022": 1389,
+                "God_2023": 1596
+              },
+              {
+                "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+                "God_2020": 935,
+                "God_2021": 999,
+                "God_2022": 1100,
+                "God_2023": 1298
+              },
+              {
+                "dijelatnosti": "B  Rudarstvo i vađenje",
+                "God_2020": 1351,
+                "God_2021": 1439,
+                "God_2022": 1699,
+                "God_2023": 1978
+              },
+              {
+                "dijelatnosti": "C  Prerađivačka industrija",
+                "God_2020": 1178,
+                "God_2021": 1227,
+                "God_2022": 1342,
+                "God_2023": 1535
+              },
+              {
+                "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+                "God_2020": 1571,
+                "God_2021": 1625,
+                "God_2022": 1667,
+                "God_2023": 1805
+              },
+              {
+                "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+                "God_2020": 1164,
+                "God_2021": 1189,
+                "God_2022": 1242,
+                "God_2023": 1439
+              },
+              {
+                "dijelatnosti": "F  Građevinarstvo",
+                "God_2020": 979,
+                "God_2021": 999,
+                "God_2022": 1076,
+                "God_2023": 1263
+              },
+              {
+                "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+                "God_2020": 1157,
+                "God_2021": 1230,
+                "God_2022": 1350,
+                "God_2023": 1543
+              },
+              {
+                "dijelatnosti": "H  Prijevoz i skladištenje",
+                "God_2020": 1201,
+                "God_2021": 1232,
+                "God_2022": 1341,
+                "God_2023": 1541
+              },
+              {
+                "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+                "God_2020": 819,
+                "God_2021": 866,
+                "God_2022": 985,
+                "God_2023": 1156
+              },
+              {
+                "dijelatnosti": "J  Informacije i komunikacije",
+                "God_2020": 1807,
+                "God_2021": 1904,
+                "God_2022": 2101,
+                "God_2023": 2345
+              },
+              {
+                "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+                "God_2020": 1778,
+                "God_2021": 1798,
+                "God_2022": 1921,
+                "God_2023": 2112
+              },
+              {
+                "dijelatnosti": "L  Poslovanje nekretninama",
+                "God_2020": 1102,
+                "God_2021": 1221,
+                "God_2022": 1324,
+                "God_2023": 1535
+              },
+              {
+                "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+                "God_2020": 1397,
+                "God_2021": 1493,
+                "God_2022": 1634,
+                "God_2023": 1855
+              },
+              {
+                "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+                "God_2020": 915,
+                "God_2021": 918,
+                "God_2022": 1025,
+                "God_2023": 1225
+              },
+              {
+                "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+                "God_2020": 1473,
+                "God_2021": 1537,
+                "God_2022": 1630,
+                "God_2023": 1904
+              },
+              {
+                "dijelatnosti": "P  Obrazovanje",
+                "God_2020": 1231,
+                "God_2021": 1303,
+                "God_2022": 1372,
+                "God_2023": 1552
+              },
+              {
+                "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+                "God_2020": 1301,
+                "God_2021": 1388,
+                "God_2022": 1473,
+                "God_2023": 1728
+              },
+              {
+                "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+                "God_2020": 1144,
+                "God_2021": 1196,
+                "God_2022": 1304,
+                "God_2023": 1476
+              },
+              {
+                "dijelatnosti": "S  Ostale uslužne djelatnosti",
+                "God_2020": 951,
+                "God_2021": 970,
+                "God_2022": 1090,
+                "God_2023": 1274
+              }
+            ]
+        },
+        { 
+          "id": "KZ",
+          "stopa" : {
+              "God_2010": 16.435629317,
+              "God_2011": 18.2335501148,
+              "God_2012": 19.7519038268,
+              "God_2013": 21.2635007304,
+              "God_2014": 21.1,
+              "God_2015": 17.7481057334,
+              "God_2016": 14.5924042987,
+              "God_2017": 10.5202460277,
+              "God_2018": 8.1,
+              "God_2019": 6.4,
+              "God_2020": 6.1,
+              "God_2021": 6.6,
+              "God_2022": 4.9,
+              "God_2023": 4.7
+          }, 
+          "nezaposlenost": {
+              "God_2010": 6853,
+              "God_2011": 7626,
+              "God_2012": 8248,
+              "God_2013": 8879,
+              "God_2014": 8799,
+              "God_2015": 7191,
+              "God_2016": 5798,
+              "God_2017": 4105,
+              "God_2018": 3144,
+              "God_2019": 2432,
+              "God_2020": 2391,
+              "God_2021": 2648,
+              "God_2022": 1953,
+              "God_2023": 1864
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 864,
+            "God_2011": 749,
+            "God_2012": 639,
+            "God_2013": 484,
+            "God_2014": 398,
+            "God_2015": 343,
+            "God_2016": 293,
+            "God_2017": 272,
+            "God_2018": 273,
+            "God_2019": 274,
+            "God_2020": 271,
+            "God_2021": 267,
+            "God_2022": 269,
+            "God_2023": 265
+          },
+          "zaposleni_obrt": {
+            "God_2010":  8004,
+            "God_2011":  7314,
+            "God_2012":  7112,
+            "God_2013":  6783,
+            "God_2014":  6657,
+            "God_2015":  6577,
+            "God_2016":  6697,
+            "God_2017":  6776,
+            "God_2018":  6809,
+            "God_2019":  6650,
+            "God_2020":  6571,
+            "God_2021":  6672,
+            "God_2022":  6875,
+            "God_2023":  6803
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 25975,
+            "God_2011": 26135,
+            "God_2012": 25759,
+            "God_2013": 25611,
+            "God_2014": 25754,
+            "God_2015": 26406,
+            "God_2016": 26945,
+            "God_2017": 27867,
+            "God_2018": 28467,
+            "God_2019": 28775,
+            "God_2020": 30044,
+            "God_2021": 30432,
+            "God_2022": 30911,
+            "God_2023": 31067
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 41696,
+            "God_2011": 41824,
+            "God_2012": 41758,
+            "God_2013": 41757,
+            "God_2014": 41608,
+            "God_2015": 40517,
+            "God_2016": 39733,
+            "God_2017": 39020,
+            "God_2018": 38693,
+            "God_2019": 38131,
+            "God_2020": 39277,
+            "God_2021": 40019,
+            "God_2022": 40008,
+            "God_2023": 39999
+          },
+          "ukupno_zaposleni" : {
+            "God_2010":34843,
+            "God_2011":34198,
+            "God_2012":33510,
+            "God_2013":32878,
+            "God_2014":32809,
+            "God_2015":33326,
+            "God_2016":33935,
+            "God_2017":34915,
+            "God_2018":35549,
+            "God_2019":35699,
+            "God_2020":36886,
+            "God_2021":37371,
+            "God_2022":38055,
+            "God_2023":38135
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 46.6,
+            "2020_FEMALE":53.4,
+            "2021_MALE": 44.3,
+            "2021_FEMALE": 55.7,
+            "2022_MALE": 43.8,
+            "2022_FEMALE": 56.2,
+            "2019_MALE": 48.5,
+            "2019_FEMALE": 51.5
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1125,
+              "God_2021": 1176,
+              "God_2022": 1290,
+              "God_2023": 1488
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 888,
+              "God_2021": 929,
+              "God_2022": 1055,
+              "God_2023": 1260
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1060,
+              "God_2021": 1128,
+              "God_2022": 1235,
+              "God_2023": 1480
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1096,
+              "God_2021": 1143,
+              "God_2022": 1283,
+              "God_2023": 1465
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1548,
+              "God_2021": 1618,
+              "God_2022": 1638,
+              "God_2023": 1779
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1107,
+              "God_2021": 1132,
+              "God_2022": 1180,
+              "God_2023": 1376
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 921,
+              "God_2021": 963,
+              "God_2022": 1058,
+              "God_2023": 1274
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 972,
+              "God_2021": 1020,
+              "God_2022": 1137,
+              "God_2023": 1294
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1067,
+              "God_2021": 1110,
+              "God_2022": 1219,
+              "God_2023": 1414
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 775,
+              "God_2021": 848,
+              "God_2022": 967,
+              "God_2023": 1159
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1674,
+              "God_2021": 1775,
+              "God_2022": 1969,
+              "God_2023": 2205
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1583,
+              "God_2021": 1625,
+              "God_2022": 1754,
+              "God_2023": 1940
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 1362,
+              "God_2021": 1401,
+              "God_2022": 1444,
+              "God_2023": 1868
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1243,
+              "God_2021": 1295,
+              "God_2022": 1385,
+              "God_2023": 1639
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 861,
+              "God_2021": 861,
+              "God_2022": 997,
+              "God_2023": 1191
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1385,
+              "God_2021": 1453,
+              "God_2022": 1565,
+              "God_2023": 1812
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1224,
+              "God_2021": 1304,
+              "God_2022": 1371,
+              "God_2023": 1561
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1236,
+              "God_2021": 1303,
+              "God_2022": 1406,
+              "God_2023": 1636
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1086,
+              "God_2021": 1146,
+              "God_2022": 1224,
+              "God_2023": 1365
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 931,
+              "God_2021": 945,
+              "God_2022": 1065,
+              "God_2023": 1251
+            }
+          ]
+        },
+        { 
+          "id": "SM",
+          "stopa" : {
+              "God_2010": 30.7664999193,
+              "God_2011": 30.9005124868,
+              "God_2012": 33.1573630528,
+              "God_2013": 34.8017476967,
+              "God_2014": 36.2,
+              "God_2015": 34.3829727746,
+              "God_2016": 32.3161203743,
+              "God_2017": 29.0022798408,
+              "God_2018": 24.3,
+              "God_2019": 19.9,
+              "God_2020": 18.7,
+              "God_2021": 17.5,
+              "God_2022": 14.7,
+              "God_2023": 13.6
+          }, 
+          "nezaposlenost": {
+              "God_2010": 19066,
+              "God_2011": 18993,
+              "God_2012": 20350,
+              "God_2013": 21267,
+              "God_2014": 21836,
+              "God_2015": 19676,
+              "God_2016": 17579,
+              "God_2017": 15011,
+              "God_2018": 12038,
+              "God_2019": 9507,
+              "God_2020": 8991,
+              "God_2021": 8651,
+              "God_2022": 7156,
+              "God_2023": 6388
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 1372,
+            "God_2011": 1307,
+            "God_2012": 1281,
+            "God_2013": 1161,
+            "God_2014": 993,
+            "God_2015": 912,
+            "God_2016": 803,
+            "God_2017": 789,
+            "God_2018": 807,
+            "God_2019": 835,
+            "God_2020": 853,
+            "God_2021": 861,
+            "God_2022": 858,
+            "God_2023": 856
+          },
+          "zaposleni_obrt": {
+            "God_2010": 6504,
+            "God_2011": 6058,
+            "God_2012": 5834,
+            "God_2013": 5590,
+            "God_2014": 5470,
+            "God_2015": 5268,
+            "God_2016": 5240,
+            "God_2017": 5263,
+            "God_2018": 5286,
+            "God_2019": 5342,
+            "God_2020": 5312,
+            "God_2021": 5492,
+            "God_2022": 5782,
+            "God_2023": 5834
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 35028,
+            "God_2011": 35107,
+            "God_2012": 33909,
+            "God_2013": 33091,
+            "God_2014": 31958,
+            "God_2015": 31370,
+            "God_2016": 30775,
+            "God_2017": 30695,
+            "God_2018": 31474,
+            "God_2019": 32179,
+            "God_2020": 33031,
+            "God_2021": 34473,
+            "God_2022": 35015,
+            "God_2023": 34049
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 42904,
+            "God_2011": 42472,
+            "God_2012": 41024,
+            "God_2013": 39842,
+            "God_2014": 38421,
+            "God_2015": 37550,
+            "God_2016": 36818,
+            "God_2017": 36747,
+            "God_2018": 37567,
+            "God_2019": 38356,
+            "God_2020": 39196,
+            "God_2021": 40826,
+            "God_2022": 41655,
+            "God_2023": 40739
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 35028,
+            "God_2011": 35107,
+            "God_2012": 33909,
+            "God_2013": 33091,
+            "God_2014": 31958,
+            "God_2015": 31370,
+            "God_2016": 30775,
+            "God_2017": 30695,
+            "God_2018": 31474,
+            "God_2019": 32179,
+            "God_2020": 33031,
+            "God_2021": 34473,
+            "God_2022": 35015,
+            "God_2023": 34049
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 43.7,
+            "2020_FEMALE": 56.3,
+            "2021_MALE": 44.3,
+            "2021_FEMALE": 55.7,
+            "2022_MALE": 42.0,
+            "2022_FEMALE": 58.0,
+            "2019_MALE": 43.0,
+            "2019_FEMALE": 57.0
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1094,
+              "God_2021": 1137,
+              "God_2022": 1230,
+              "God_2023": 1429
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1005,
+              "God_2021": 1039,
+              "God_2022": 1144,
+              "God_2023": 1379
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1294,
+              "God_2021": 1359,
+              "God_2022": 1571,
+              "God_2023": 1852
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1063,
+              "God_2021": 1102,
+              "God_2022": 1190,
+              "God_2023": 1358
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1497,
+              "God_2021": 1599,
+              "God_2022": 1603,
+              "God_2023": 1697
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1005,
+              "God_2021": 1056,
+              "God_2022": 1094,
+              "God_2023": 1244
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 881,
+              "God_2021": 936,
+              "God_2022": 1012,
+              "God_2023": 1201
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 899,
+              "God_2021": 944,
+              "God_2022": 1046,
+              "God_2023": 1205
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1119,
+              "God_2021": 1143,
+              "God_2022": 1244,
+              "God_2023": 1430
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 747,
+              "God_2021": 799,
+              "God_2022": 909,
+              "God_2023": 1070
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1515,
+              "God_2021": 1615,
+              "God_2022": 1769,
+              "God_2023": 1959
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1428,
+              "God_2021": 1475,
+              "God_2022": 1566,
+              "God_2023": 1695
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 881,
+              "God_2021": 1055,
+              "God_2022": 1159,
+              "God_2023": 1298
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1142,
+              "God_2021": 1193,
+              "God_2022": 1279,
+              "God_2023": 1490
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 784,
+              "God_2021": 801,
+              "God_2022": 890,
+              "God_2023": 1051
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1285,
+              "God_2021": 1298,
+              "God_2022": 1424,
+              "God_2023": 1716
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1196,
+              "God_2021": 1281,
+              "God_2022": 1345,
+              "God_2023": 1531
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1311,
+              "God_2021": 1363,
+              "God_2022": 1474,
+              "God_2023": 1751
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 941,
+              "God_2021": 999,
+              "God_2022": 1065,
+              "God_2023": 1237
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 885,
+              "God_2021": 866,
+              "God_2022": 1045,
+              "God_2023": 1232
+            }
+          ]
+        },
+        {
+          "id": "KA",
+          "stopa" : {
+              "God_2010": 25.9846838246,
+              "God_2011": 25.0481453571,
+              "God_2012": 25.7058297492,
+              "God_2013": 26.1886486717,
+              "God_2014": 25.6,
+              "God_2015": 23.9995501068,
+              "God_2016": 21.1581656528,
+              "God_2017": 16.6248691291,
+              "God_2018": 13.2,
+              "God_2019": 9.9,
+              "God_2020": 9.1,
+              "God_2021": 9.1,
+              "God_2022": 6.9,
+              "God_2023": 5.9
+          }, 
+          "nezaposlenost": {
+              "God_2010": 12792,
+              "God_2011": 11966,
+              "God_2012": 12073,
+              "God_2013": 12283,
+              "God_2014": 11884,
+              "God_2015": 10669,
+              "God_2016": 9043,
+              "God_2017": 6828,
+              "God_2018": 5262,
+              "God_2019": 3867,
+              "God_2020": 3533,
+              "God_2021": 3560,
+              "God_2022": 2707,
+              "God_2023": 2326
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010":793,
+            "God_2011":701,
+            "God_2012":615,
+            "God_2013":516,
+            "God_2014":425,
+            "God_2015":391,
+            "God_2016":347,
+            "God_2017":363,
+            "God_2018":366,
+            "God_2019":391,
+            "God_2020":427,
+            "God_2021":407,
+            "God_2022":440,
+            "God_2023":436
+          },
+          "zaposleni_obrt": {
+            "God_2010": 6559,
+            "God_2011": 6165,
+            "God_2012": 5826,
+            "God_2013": 5579,
+            "God_2014": 5424,
+            "God_2015": 5350,
+            "God_2016": 5314,
+            "God_2017": 5263,
+            "God_2018": 5329,
+            "God_2019": 5333,
+            "God_2020": 5174,
+            "God_2021": 5235,
+            "God_2022": 5278,
+            "God_2023": 5243
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 29085,
+            "God_2011": 28940,
+            "God_2012": 28452,
+            "God_2013": 28524,
+            "God_2014": 28605,
+            "God_2015": 28045,
+            "God_2016": 28036,
+            "God_2017": 28617,
+            "God_2018": 29031,
+            "God_2019": 29651,
+            "God_2020": 29684,
+            "God_2021": 30123,
+            "God_2022": 30704,
+            "God_2023": 31684
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 49229,
+            "God_2011": 47772,
+            "God_2012": 46966,
+            "God_2013": 46902,
+            "God_2014": 46338,
+            "God_2015": 44455,
+            "God_2016": 42740,
+            "God_2017": 41071,
+            "God_2018": 39988,
+            "God_2019": 39242,
+            "God_2020": 38818,
+            "God_2021": 39325,
+            "God_2022": 39129,
+            "God_2023": 39689
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 36437,
+            "God_2011": 35806,
+            "God_2012": 34893,
+            "God_2013": 34619,
+            "God_2014": 34454,
+            "God_2015": 33786,
+            "God_2016": 33697,
+            "God_2017": 34243,
+            "God_2018": 34726,
+            "God_2019": 35375,
+            "God_2020": 35285,
+            "God_2021": 35765,
+            "God_2022": 36422,
+            "God_2023": 37363
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 40.9,
+            "2020_FEMALE": 59.1,
+            "2021_MALE": 39.5,
+            "2021_FEMALE": 60.5,
+            "2022_MALE": 38.6,
+            "2022_FEMALE": 61.4,
+            "2019_MALE": 41.0,
+            "2019_FEMALE": 59.0
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1160,
+              "God_2021": 1208,
+              "God_2022": 1315,
+              "God_2023": 1512
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1040,
+              "God_2021": 1059,
+              "God_2022": 1195,
+              "God_2023": 1398
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1342,
+              "God_2021": 1356,
+              "God_2022": 1457,
+              "God_2023": 1747
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1125,
+              "God_2021": 1171,
+              "God_2022": 1303,
+              "God_2023": 1458
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1508,
+              "God_2021": 1559,
+              "God_2022": 1621,
+              "God_2023": 1754
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1003,
+              "God_2021": 1048,
+              "God_2022": 1116,
+              "God_2023": 1286
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 974,
+              "God_2021": 1004,
+              "God_2022": 1113,
+              "God_2023": 1318
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 1010,
+              "God_2021": 1058,
+              "God_2022": 1183,
+              "God_2023": 1354
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1152,
+              "God_2021": 1170,
+              "God_2022": 1269,
+              "God_2023": 1477
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 794,
+              "God_2021": 837,
+              "God_2022": 951,
+              "God_2023": 1126
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1675,
+              "God_2021": 1751,
+              "God_2022": 1866,
+              "God_2023": 2074
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1429,
+              "God_2021": 1481,
+              "God_2022": 1588,
+              "God_2023": 1815
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 1032,
+              "God_2021": 1044,
+              "God_2022": 1102,
+              "God_2023": 1276
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1226,
+              "God_2021": 1312,
+              "God_2022": 1389,
+              "God_2023": 1597
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 852,
+              "God_2021": 877,
+              "God_2022": 983,
+              "God_2023": 1163
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1370,
+              "God_2021": 1436,
+              "God_2022": 1538,
+              "God_2023": 1807
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1237,
+              "God_2021": 1316,
+              "God_2022": 1380,
+              "God_2023": 1570
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1396,
+              "God_2021": 1456,
+              "God_2022": 1563,
+              "God_2023": 1836
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1033,
+              "God_2021": 1092,
+              "God_2022": 1169,
+              "God_2023": 1369
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 931,
+              "God_2021": 961,
+              "God_2022": 1047,
+              "God_2023": 1202
+            }
+          ]
+        },
+        {
+          "id": "VZ",
+          "stopa" : {
+              "God_2010": 14.115958097,
+              "God_2011": 14.9617665976,
+              "God_2012": 15.3548129789,
+              "God_2013": 16.9146683454,
+              "God_2014": 15.8,
+              "God_2015": 12.3504267183,
+              "God_2016": 9.535861232,
+              "God_2017": 6.9301808998,
+              "God_2018": 5.1,
+              "God_2019": 4,
+              "God_2020": 4.2,
+              "God_2021": 4,
+              "God_2022": 3.2,
+              "God_2023": 3.1
+          }, 
+          "nezaposlenost": {
+              "God_2010": 9931,
+              "God_2011": 10468,
+              "God_2012": 10780,
+              "God_2013": 11822,
+              "God_2014": 10894,
+              "God_2015": 8350,
+              "God_2016": 6443,
+              "God_2017": 4555,
+              "God_2018": 3375,
+              "God_2019": 2657,
+              "God_2020": 2743,
+              "God_2021": 2717,
+              "God_2022": 2139,
+              "God_2023": 2138
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 2137,
+            "God_2011": 1912,
+            "God_2012": 1706,
+            "God_2013": 1443,
+            "God_2014": 1176,
+            "God_2015": 1038,
+            "God_2016": 947,
+            "God_2017": 914,
+            "God_2018": 863,
+            "God_2019": 798,
+            "God_2020": 783,
+            "God_2021": 745,
+            "God_2022": 696,
+            "God_2023": 666
+          },
+          "zaposleni_obrt": {
+            "God_2010": 9093,
+            "God_2011": 8753,
+            "God_2012": 8354,
+            "God_2013": 8104,
+            "God_2014": 7853,
+            "God_2015": 7790,
+            "God_2016": 7892,
+            "God_2017": 7976,
+            "God_2018": 7899,
+            "God_2019": 8058,
+            "God_2020": 7866,
+            "God_2021": 7922,
+            "God_2022": 8236,
+            "God_2023": 8120
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 49192,
+            "God_2011": 48832,
+            "God_2012": 49366,
+            "God_2013": 48523,
+            "God_2014": 49148,
+            "God_2015": 50431,
+            "God_2016": 52284,
+            "God_2017": 52282,
+            "God_2018": 54099,
+            "God_2019": 55186,
+            "God_2020": 54697,
+            "God_2021": 56046,
+            "God_2022": 55943,
+            "God_2023": 57231
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 70353,
+            "God_2011": 69965,
+            "God_2012": 70206,
+            "God_2013": 69892,
+            "God_2014": 69071,
+            "God_2015": 67609,
+            "God_2016": 67566,
+            "God_2017": 65727,
+            "God_2018": 66236,
+            "God_2019": 66699,
+            "God_2020": 66089,
+            "God_2021": 67430,
+            "God_2022": 67014,
+            "God_2023": 68155
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 60422,
+            "God_2011": 59497,
+            "God_2012": 59426,
+            "God_2013": 58070,
+            "God_2014": 58177,
+            "God_2015": 59259,
+            "God_2016": 61123,
+            "God_2017": 61172,
+            "God_2018": 62861,
+            "God_2019": 64042,
+            "God_2020": 63346,
+            "God_2021": 64713,
+            "God_2022": 64875,
+            "God_2023": 66017
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 47.9,
+            "2020_FEMALE": 52.1,
+            "2021_MALE": 47.2,
+            "2021_FEMALE": 52.8,
+            "2022_MALE": 47.1,
+            "2022_FEMALE": 52.9,
+            "2019_MALE": 48.8,
+            "2019_FEMALE": 51.2
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1094,
+              "God_2021": 1146,
+              "God_2022": 1256,
+              "God_2023": 1440
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1020,
+              "God_2021": 1058,
+              "God_2022": 1138,
+              "God_2023": 1315
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1282,
+              "God_2021": 1302,
+              "God_2022": 1390,
+              "God_2023": 1611
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 978,
+              "God_2021": 1024,
+              "God_2022": 1158,
+              "God_2023": 1309
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1621,
+              "God_2021": 1642,
+              "God_2022": 1719,
+              "God_2023": 1804
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1022,
+              "God_2021": 1063,
+              "God_2022": 1178,
+              "God_2023": 1259
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 988,
+              "God_2021": 1032,
+              "God_2022": 1119,
+              "God_2023": 1332
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 989,
+              "God_2021": 1034,
+              "God_2022": 1135,
+              "God_2023": 1296
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 976,
+              "God_2021": 1008,
+              "God_2022": 1110,
+              "God_2023": 1263
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 828,
+              "God_2021": 873,
+              "God_2022": 985,
+              "God_2023": 1148
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1650,
+              "God_2021": 1742,
+              "God_2022": 1947,
+              "God_2023": 2162
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1534,
+              "God_2021": 1591,
+              "God_2022": 1727,
+              "God_2023": 1915
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 1005,
+              "God_2021": 1025,
+              "God_2022": 1101,
+              "God_2023": 1250
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1196,
+              "God_2021": 1251,
+              "God_2022": 1360,
+              "God_2023": 1545
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 840,
+              "God_2021": 904,
+              "God_2022": 1022,
+              "God_2023": 1198
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1423,
+              "God_2021": 1503,
+              "God_2022": 1606,
+              "God_2023": 1870
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1238,
+              "God_2021": 1317,
+              "God_2022": 1387,
+              "God_2023": 1593
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1354,
+              "God_2021": 1436,
+              "God_2022": 1491,
+              "God_2023": 1771
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1011,
+              "God_2021": 1076,
+              "God_2022": 1145,
+              "God_2023": 1303
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 990,
+              "God_2021": 1028,
+              "God_2022": 1135,
+              "God_2023": 1310
+            }
+          ]  
+        },
+        {
+        "id": "KK",
+          "stopa" : {
+              "God_2010": 18.6355873085,
+              "God_2011": 18.6838841468,
+              "God_2012": 20.4241563403,
+              "God_2013": 23.9102929867,
+              "God_2014": 24.4,
+              "God_2015": 19.744845777,
+              "God_2016": 16.7117632291,
+              "God_2017": 12.9558710894,
+              "God_2018": 8.7,
+              "God_2019": 6.8,
+              "God_2020": 6.4,
+              "God_2021": 6.8,
+              "God_2022": 5.6,
+              "God_2023": 5.3
+          }, 
+          "nezaposlenost": {
+              "God_2010":  7747,
+              "God_2011":  7683,
+              "God_2012":  8340,
+              "God_2013":  9638,
+              "God_2014":  9647,
+              "God_2015":  7336,
+              "God_2016":  5991,
+              "God_2017":  4398,
+              "God_2018":  2880,
+              "God_2019":  2258,
+              "God_2020":  2117,
+              "God_2021":  2277,
+              "God_2022":  1871,
+              "God_2023":  1792
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 4690,
+            "God_2011": 4481,
+            "God_2012": 4175,
+            "God_2013": 3774,
+            "God_2014": 3304,
+            "God_2015": 2994,
+            "God_2016": 2828,
+            "God_2017": 2684,
+            "God_2018": 2555,
+            "God_2019": 2417,
+            "God_2020": 2282,
+            "God_2021": 2171,
+            "God_2022": 2000,
+            "God_2023": 1908
+          },
+          "zaposleni_obrt": {
+            "God_2010": 4424,
+            "God_2011": 4219,
+            "God_2012": 4018,
+            "God_2013": 3847,
+            "God_2014": 3614,
+            "God_2015": 3476,
+            "God_2016": 3483,
+            "God_2017": 3480,
+            "God_2018": 3525,
+            "God_2019": 3457,
+            "God_2020": 3560,
+            "God_2021": 3715,
+            "God_2022": 3872,
+            "God_2023": 3873
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 24710,
+            "God_2011": 24738,
+            "God_2012": 24301,
+            "God_2013": 23050,
+            "God_2014": 22901,
+            "God_2015": 23348,
+            "God_2016": 23547,
+            "God_2017": 23384,
+            "God_2018": 24272,
+            "God_2019": 25049,
+            "God_2020": 25128,
+            "God_2021": 25364,
+            "God_2022": 25749,
+            "God_2023": 26333
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 41571,
+            "God_2011": 41121,
+            "God_2012": 40834,
+            "God_2013": 40309,
+            "God_2014": 39466,
+            "God_2015": 37154,
+            "God_2016": 35849,
+            "God_2017": 33946,
+            "God_2018": 33232,
+            "God_2019": 33181,
+            "God_2020": 33087,
+            "God_2021": 33527,
+            "God_2022": 33492,
+            "God_2023": 33906
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 33824,
+            "God_2011": 33438,
+            "God_2012": 32494,
+            "God_2013": 30671,
+            "God_2014": 29819,
+            "God_2015": 29818,
+            "God_2016": 29858,
+            "God_2017": 29548,
+            "God_2018": 30352,
+            "God_2019": 30923,
+            "God_2020": 30970,
+            "God_2021": 31250,
+            "God_2022": 31621,
+            "God_2023": 32114
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 45.2,
+            "2020_FEMALE": 54.7,
+            "2021_MALE": 45.6,
+            "2021_FEMALE": 54.4,
+            "2022_MALE": 43.8,
+            "2022_FEMALE": 56.2,
+            "2019_MALE": 45.8,
+            "2019_FEMALE": 54.2
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1083,
+              "God_2021": 1129,
+              "God_2022": 1226,
+              "God_2023": 1403
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1014,
+              "God_2021": 1039,
+              "God_2022": 1135,
+              "God_2023": 1328
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1110,
+              "God_2021": 1166,
+              "God_2022": 1263,
+              "God_2023": 1455
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1032,
+              "God_2021": 1070,
+              "God_2022": 1169,
+              "God_2023": 1305
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1451,
+              "God_2021": 1472,
+              "God_2022": 1514,
+              "God_2023": 1651
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 999,
+              "God_2021": 1041,
+              "God_2022": 1109,
+              "God_2023": 1217
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 903,
+              "God_2021": 962,
+              "God_2022": 1072,
+              "God_2023": 1269
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 929,
+              "God_2021": 966,
+              "God_2022": 1072,
+              "God_2023": 1232
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1022,
+              "God_2021": 1046,
+              "God_2022": 1136,
+              "God_2023": 1302
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 726,
+              "God_2021": 789,
+              "God_2022": 906,
+              "God_2023": 1051
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1616,
+              "God_2021": 1688,
+              "God_2022": 1849,
+              "God_2023": 2059
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1524,
+              "God_2021": 1580,
+              "God_2022": 1702,
+              "God_2023": 1904
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 871,
+              "God_2021": 1019,
+              "God_2022": 1144,
+              "God_2023": 1237
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1172,
+              "God_2021": 1210,
+              "God_2022": 1324,
+              "God_2023": 1515
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 804,
+              "God_2021": 813,
+              "God_2022": 900,
+              "God_2023": 1062
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1308,
+              "God_2021": 1370,
+              "God_2022": 1452,
+              "God_2023": 1716
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1222,
+              "God_2021": 1309,
+              "God_2022": 1374,
+              "God_2023": 1575
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1382,
+              "God_2021": 1463,
+              "God_2022": 1551,
+              "God_2023": 1805
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 994,
+              "God_2021": 1046,
+              "God_2022": 1147,
+              "God_2023": 1347
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 893,
+              "God_2021": 900,
+              "God_2022": 986,
+              "God_2023": 1129
+            }
+          ]  
+        },
+        { 
+          "id" :"BB",
+          "stopa" : {
+              "God_2010": 29.2911682924,
+              "God_2011": 28.7814322055,
+              "God_2012": 29.0052595472,
+              "God_2013": 30.2162558417,
+              "God_2014": 32,
+              "God_2015": 31.048823289,
+              "God_2016": 27.4908219457,
+              "God_2017": 22.7380057959,
+              "God_2018": 18.3,
+              "God_2019": 13.7,
+              "God_2020": 12.4,
+              "God_2021": 11.8,
+              "God_2022": 10.2,
+              "God_2023": 9.2
+          }, 
+          "nezaposlenost": {
+              "God_2010": 13273,
+              "God_2011": 12785,
+              "God_2012": 12684,
+              "God_2013": 13190,
+              "God_2014": 13656,
+              "God_2015": 12916,
+              "God_2016": 10783,
+              "God_2017": 8474,
+              "God_2018": 6678,
+              "God_2019": 4872,
+              "God_2020": 4369,
+              "God_2021": 4215,
+              "God_2022": 3602,
+              "God_2023": 3154
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010":3664,
+            "God_2011":3558,
+            "God_2012":3358,
+            "God_2013":3016,
+            "God_2014":2642,
+            "God_2015":2423,
+            "God_2016":2251,
+            "God_2017":2132,
+            "God_2018":2064,
+            "God_2019":1985,
+            "God_2020":1869,
+            "God_2021":1846,
+            "God_2022":1733,
+            "God_2023":1644
+          },
+          "zaposleni_obrt": {
+            "God_2010": 4478,
+            "God_2011": 4517,
+            "God_2012": 4243,
+            "God_2013": 4141,
+            "God_2014": 3935,
+            "God_2015": 3729,
+            "God_2016": 3752,
+            "God_2017": 3821,
+            "God_2018": 3768,
+            "God_2019": 3809,
+            "God_2020": 3796,
+            "God_2021": 3945,
+            "God_2022": 4022,
+            "God_2023": 3994
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 23899,
+            "God_2011": 23561,
+            "God_2012": 23445,
+            "God_2013": 23305,
+            "God_2014": 22406,
+            "God_2015": 22531,
+            "God_2016": 22438,
+            "God_2017": 22841,
+            "God_2018": 23998,
+            "God_2019": 24788,
+            "God_2020": 25165,
+            "God_2021": 25613,
+            "God_2022": 26025,
+            "God_2023": 25631
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 45314,
+            "God_2011": 44421,
+            "God_2012": 43730,
+            "God_2013": 43652,
+            "God_2014": 42639,
+            "God_2015": 41599,
+            "God_2016": 39224,
+            "God_2017": 37268,
+            "God_2018": 36508,
+            "God_2019": 35454,
+            "God_2020": 35199,
+            "God_2021": 35619,
+            "God_2022": 35382,
+            "God_2023": 34423
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 32041,
+            "God_2011": 31636,
+            "God_2012": 31046,
+            "God_2013": 30462,
+            "God_2014": 28983,
+            "God_2015": 28683,
+            "God_2016": 28441,
+            "God_2017": 28794,
+            "God_2018": 29830,
+            "God_2019": 30582,
+            "God_2020": 30830,
+            "God_2021": 31404,
+            "God_2022": 31780,
+            "God_2023": 31269
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 47.8,
+            "2020_FEMALE": 52.2,
+            "2021_MALE": 47.4,
+            "2021_FEMALE": 52.6,
+            "2022_MALE": 43.5,
+            "2022_FEMALE": 56.5,
+            "2019_MALE": 48.5,
+            "2019_FEMALE": 51.5
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1043,
+              "God_2021": 1080,
+              "God_2022": 1177,
+              "God_2023": 1369
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1027,
+              "God_2021": 1039,
+              "God_2022": 1165,
+              "God_2023": 1364
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1163,
+              "God_2021": 1202,
+              "God_2022": 1320,
+              "God_2023": 1547
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 895,
+              "God_2021": 923,
+              "God_2022": 1020,
+              "God_2023": 1188
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1121,
+              "God_2021": 1167,
+              "God_2022": 1223,
+              "God_2023": 1407
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 913,
+              "God_2021": 931,
+              "God_2022": 1007,
+              "God_2023": 1163
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 880,
+              "God_2021": 908,
+              "God_2022": 999,
+              "God_2023": 1167
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 899,
+              "God_2021": 943,
+              "God_2022": 1032,
+              "God_2023": 1184
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 892,
+              "God_2021": 921,
+              "God_2022": 1013,
+              "God_2023": 1168
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 766,
+              "God_2021": 812,
+              "God_2022": 910,
+              "God_2023": 1076
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1513,
+              "God_2021": 1602,
+              "God_2022": 1717,
+              "God_2023": 1917
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1419,
+              "God_2021": 1449,
+              "God_2022": 1600,
+              "God_2023": 1814
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 835,
+              "God_2021": 892,
+              "God_2022": 1010,
+              "God_2023": 1147
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1082,
+              "God_2021": 1119,
+              "God_2022": 1225,
+              "God_2023": 1392
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 784,
+              "God_2021": 820,
+              "God_2022": 908,
+              "God_2023": 1050
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1292,
+              "God_2021": 1340,
+              "God_2022": 1450,
+              "God_2023": 1713
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1220,
+              "God_2021": 1292,
+              "God_2022": 1360,
+              "God_2023": 1548
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1353,
+              "God_2021": 1402,
+              "God_2022": 1501,
+              "God_2023": 1737
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 912,
+              "God_2021": 938,
+              "God_2022": 1022,
+              "God_2023": 1187
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 882,
+              "God_2021": 825,
+              "God_2022": 967,
+              "God_2023": 1154
+            }
+          ] 
+        },
+        {
+          "id": "PG",
+          "stopa" : {
+              "God_2010": 14.7861604627,
+              "God_2011": 15.6941237658,
+              "God_2012": 15.6296379043,
+              "God_2013": 16.9765587882,
+              "God_2014": 17.9,
+              "God_2015": 14.9239880541,
+              "God_2016": 12.9693448723,
+              "God_2017": 9.9429661152,
+              "God_2018": 8,
+              "God_2019": 6.7,
+              "God_2020": 7.2,
+              "God_2021": 8.2,
+              "God_2022": 6.2,
+              "God_2023": 5.4
+          }, 
+          "nezaposlenost": {
+              "God_2010": 19150,
+              "God_2011": 19916,
+              "God_2012": 19588,
+              "God_2013": 21082,
+              "God_2014": 21779,
+              "God_2015": 17690,
+              "God_2016": 15091,
+              "God_2017": 11262,
+              "God_2018": 9254,
+              "God_2019": 7607,
+              "God_2020": 8218,
+              "God_2021": 9559,
+              "God_2022": 7228,
+              "God_2023": 6528
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 208,
+            "God_2011": 195,
+            "God_2012": 222,
+            "God_2013": 211,
+            "God_2014": 211,
+            "God_2015": 222,
+            "God_2016": 226,
+            "God_2017": 241,
+            "God_2018": 249,
+            "God_2019": 252,
+            "God_2020": 278,
+            "God_2021": 292,
+            "God_2022": 311,
+            "God_2023": 287
+          },
+          "zaposleni_obrt": {
+            "God_2010": 19829,
+            "God_2011": 18700,
+            "God_2012": 17904,
+            "God_2013": 17745,
+            "God_2014": 16625,
+            "God_2015": 16409,
+            "God_2016": 16380,
+            "God_2017": 16099,
+            "God_2018": 16017,
+            "God_2019": 15843,
+            "God_2020": 15516,
+            "God_2021": 15949,
+            "God_2022": 16298,
+            "God_2023": 16688
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 90326,
+            "God_2011": 88090,
+            "God_2012": 87612,
+            "God_2013": 85145,
+            "God_2014": 83122,
+            "God_2015": 84213,
+            "God_2016": 84662,
+            "God_2017": 85664,
+            "God_2018": 90137,
+            "God_2019": 89849,
+            "God_2020": 90776,
+            "God_2021": 90924,
+            "God_2022": 93200,
+            "God_2023": 97566
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 129513,
+            "God_2011": 126901,
+            "God_2012": 125326,
+            "God_2013": 124183,
+            "God_2014": 121737,
+            "God_2015": 118534,
+            "God_2016": 116359,
+            "God_2017": 113266,
+            "God_2018": 115657,
+            "God_2019": 113551,
+            "God_2020": 114788,
+            "God_2021": 116724,
+            "God_2022": 117037,
+            "God_2023": 121069
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 110363,
+            "God_2011": 106985,
+            "God_2012": 105738,
+            "God_2013": 103101,
+            "God_2014": 99958,
+            "God_2015": 100844,
+            "God_2016": 101268,
+            "God_2017": 102004,
+            "God_2018": 106403,
+            "God_2019": 105944,
+            "God_2020": 106570,
+            "God_2021": 107165,
+            "God_2022": 109809,
+            "God_2023": 114541
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 44.2,
+            "2020_FEMALE": 55.8,
+            "2021_MALE": 44.3,
+            "2021_FEMALE": 55.7,
+            "2022_MALE": 43.4,
+            "2022_FEMALE": 56.6,
+            "2019_MALE": 43.7,
+            "2019_FEMALE": 56.3
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1214,
+              "God_2021": 1270,
+              "God_2022": 1382,
+              "God_2023": 1583
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1052,
+              "God_2021": 1080,
+              "God_2022": 1189,
+              "God_2023": 1389
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1492,
+              "God_2021": 1483,
+              "God_2022": 1435,
+              "God_2023": 1607
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1191,
+              "God_2021": 1227,
+              "God_2022": 1356,
+              "God_2023": 1557
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1563,
+              "God_2021": 1671,
+              "God_2022": 1668,
+              "God_2023": 1774
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1129,
+              "God_2021": 1172,
+              "God_2022": 1255,
+              "God_2023": 1430
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 993,
+              "God_2021": 1041,
+              "God_2022": 1136,
+              "God_2023": 1322
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 1035,
+              "God_2021": 1085,
+              "God_2022": 1202,
+              "God_2023": 1381
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1190,
+              "God_2021": 1250,
+              "God_2022": 1378,
+              "God_2023": 1575
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 976,
+              "God_2021": 1047,
+              "God_2022": 1178,
+              "God_2023": 1375
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1530,
+              "God_2021": 1625,
+              "God_2022": 1873,
+              "God_2023": 2067
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1406,
+              "God_2021": 1450,
+              "God_2022": 1575,
+              "God_2023": 1794
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 970,
+              "God_2021": 1019,
+              "God_2022": 1104,
+              "God_2023": 1282
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1429,
+              "God_2021": 1467,
+              "God_2022": 1523,
+              "God_2023": 1714
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 894,
+              "God_2021": 908,
+              "God_2022": 1047,
+              "God_2023": 1234
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1440,
+              "God_2021": 1496,
+              "God_2022": 1577,
+              "God_2023": 1838
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1381,
+              "God_2021": 1459,
+              "God_2022": 1542,
+              "God_2023": 1760
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1548,
+              "God_2021": 1669,
+              "God_2022": 1822,
+              "God_2023": 2061
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1092,
+              "God_2021": 1125,
+              "God_2022": 1223,
+              "God_2023": 1395
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 1024,
+              "God_2021": 1054,
+              "God_2022": 1161,
+              "God_2023": 1325
+            }
+          ]
+        },
+        {
+          "id": "LS",
+          "stopa" : {
+              "God_2010": 21.5252152522,
+              "God_2011": 22.2799784908,
+              "God_2012": 20.8579346909,
+              "God_2013": 22.9773846976,
+              "God_2014": 24.6,
+              "God_2015": 23.3190527193,
+              "God_2016": 22.328924322,
+              "God_2017": 19.3622008389,
+              "God_2018": 15.8,
+              "God_2019": 12.5,
+              "God_2020": 12.7,
+              "God_2021": 12.1,
+              "God_2022": 10.2,
+              "God_2023": 8.1
+          }, 
+          "nezaposlenost": {
+              "God_2010": 3675,
+              "God_2011": 3729,
+              "God_2012": 3462,
+              "God_2013": 3871,
+              "God_2014": 4205,
+              "God_2015": 3919,
+              "God_2016": 3697,
+              "God_2017": 3139,
+              "God_2018": 2518,
+              "God_2019": 2043,
+              "God_2020": 2048,
+              "God_2021": 1968,
+              "God_2022": 1621,
+              "God_2023": 1342
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 405,
+            "God_2011": 399,
+            "God_2012": 361,
+            "God_2013": 301,
+            "God_2014": 261,
+            "God_2015": 254,
+            "God_2016": 236,
+            "God_2017": 271,
+            "God_2018": 335,
+            "God_2019": 409,
+            "God_2020": 424,
+            "God_2021": 453,
+            "God_2022": 485,
+            "God_2023": 509
+          },
+          "zaposleni_obrt": {
+            "God_2010": 2817,
+            "God_2011": 2658,
+            "God_2012": 2588,
+            "God_2013": 2422,
+            "God_2014": 2258,
+            "God_2015": 2192,
+            "God_2016": 2223,
+            "God_2017": 2241,
+            "God_2018": 2267,
+            "God_2019": 2330,
+            "God_2020": 2102,
+            "God_2021": 2203,
+            "God_2022": 2240,
+            "God_2023": 2286
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 10176,
+            "God_2011": 9951,
+            "God_2012": 10187,
+            "God_2013": 10253,
+            "God_2014": 10378,
+            "God_2015": 10441,
+            "God_2016": 10401,
+            "God_2017": 10561,
+            "God_2018": 10837,
+            "God_2019": 11499,
+            "God_2020": 11577,
+            "God_2021": 11610,
+            "God_2022": 11605,
+            "God_2023": 12349
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 17073,
+            "God_2011": 16737,
+            "God_2012": 16598,
+            "God_2013": 16847,
+            "God_2014": 17102,
+            "God_2015": 16806,
+            "God_2016": 16557,
+            "God_2017": 16212,
+            "God_2018": 15957,
+            "God_2019": 16281,
+            "God_2020": 16151,
+            "God_2021": 16234,
+            "God_2022": 15951,
+            "God_2023": 16486
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 13398,
+            "God_2011": 13008,
+            "God_2012": 13136,
+            "God_2013": 12976,
+            "God_2014": 12897,
+            "God_2015": 12887,
+            "God_2016": 12860,
+            "God_2017": 13073,
+            "God_2018": 13439,
+            "God_2019": 14238,
+            "God_2020": 14103,
+            "God_2021": 14266,
+            "God_2022": 14330,
+            "God_2023": 15144
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 46.4,
+            "2020_FEMALE": 53.6,
+            "2021_MALE": 46.1,
+            "2021_FEMALE": 53.9,
+            "2022_MALE": 42.0,
+            "2022_FEMALE": 58.0,
+            "2019_MALE": 47.2,
+            "2019_FEMALE": 52.8
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1090,
+              "God_2021": 1132,
+              "God_2022": 1214,
+              "God_2023": 1405
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1104,
+              "God_2021": 1135,
+              "God_2022": 1264,
+              "God_2023": 1457
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1519,
+              "God_2021": 1529,
+              "God_2022": 1313,
+              "God_2023": 1489
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 880,
+              "God_2021": 944,
+              "God_2022": 1064,
+              "God_2023": 1231
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1487,
+              "God_2021": 1526,
+              "God_2022": 1552,
+              "God_2023": 1639
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 991,
+              "God_2021": 1039,
+              "God_2022": 1106,
+              "God_2023": 1236
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 956,
+              "God_2021": 973,
+              "God_2022": 1035,
+              "God_2023": 1201
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 901,
+              "God_2021": 950,
+              "God_2022": 1056,
+              "God_2023": 1203
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1076,
+              "God_2021": 1088,
+              "God_2022": 1218,
+              "God_2023": 1419
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 829,
+              "God_2021": 888,
+              "God_2022": 976,
+              "God_2023": 1158
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1113,
+              "God_2021": 1272,
+              "God_2022": 1244,
+              "God_2023": 1564
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1193,
+              "God_2021": 1190,
+              "God_2022": 1263,
+              "God_2023": 1471
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 970,
+              "God_2021": 956,
+              "God_2022": 1020,
+              "God_2023": 1212
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1100,
+              "God_2021": 1129,
+              "God_2022": 1196,
+              "God_2023": 1370
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 768,
+              "God_2021": 789,
+              "God_2022": 884,
+              "God_2023": 1052
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1259,
+              "God_2021": 1322,
+              "God_2022": 1397,
+              "God_2023": 1647
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1186,
+              "God_2021": 1247,
+              "God_2022": 1308,
+              "God_2023": 1516
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1396,
+              "God_2021": 1460,
+              "God_2022": 1556,
+              "God_2023": 1835
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1178,
+              "God_2021": 1217,
+              "God_2022": 1303,
+              "God_2023": 1499
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 1085,
+              "God_2021": 972,
+              "God_2022": 1153,
+              "God_2023": 1343
+            }
+          ]  
+        },
+        {
+          "id": "VP",
+          "stopa" : {
+              "God_2010": 30.4275098916,
+              "God_2011": 32.535046729,
+              "God_2012": 35.4059961505,
+              "God_2013": 36.2234059937,
+              "God_2014": 38.1,
+              "God_2015": 35.8375420875,
+              "God_2016": 32.7300800747,
+              "God_2017": 28.8118961353,
+              "God_2018": 23.2,
+              "God_2019": 19.6,
+              "God_2020": 18.8,
+              "God_2021": 18.5,
+              "God_2022": 15.7,
+              "God_2023": 15.3
+          }, 
+          "nezaposlenost": {
+              "God_2010": 9459,
+              "God_2011": 10026,
+              "God_2012": 10853,
+              "God_2013": 11084,
+              "God_2014": 11583,
+              "God_2015": 10218,
+              "God_2016": 9115,
+              "God_2017": 7634,
+              "God_2018": 5971,
+              "God_2019": 4935,
+              "God_2020": 4678,
+              "God_2021": 4622,
+              "God_2022": 3926,
+              "God_2023": 3722
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 2804,
+            "God_2011": 2694,
+            "God_2012": 2621,
+            "God_2013": 2395,
+            "God_2014": 2099,
+            "God_2015": 1930,
+            "God_2016": 1672,
+            "God_2017": 1647,
+            "God_2018": 1616,
+            "God_2019": 1620,
+            "God_2020": 1615,
+            "God_2021": 1592,
+            "God_2022": 1554,
+            "God_2023": 1495
+          },
+          "zaposleni_obrt": {
+            "God_2010": 3740,
+            "God_2011": 3564,
+            "God_2012": 3375,
+            "God_2013": 3396,
+            "God_2014": 3395,
+            "God_2015": 3282,
+            "God_2016": 3333,
+            "God_2017": 3335,
+            "God_2018": 3453,
+            "God_2019": 3592,
+            "God_2020": 3443,
+            "God_2021": 3434,
+            "God_2022": 3586,
+            "God_2023": 3563
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 15084,
+            "God_2011": 14532,
+            "God_2012": 13804,
+            "God_2013": 13724,
+            "God_2014": 13343,
+            "God_2015": 13082,
+            "God_2016": 13729,
+            "God_2017": 13880,
+            "God_2018": 14751,
+            "God_2019": 15056,
+            "God_2020": 15111,
+            "God_2021": 15385,
+            "God_2022": 15870,
+            "God_2023": 15597
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 31087,
+            "God_2011": 30816,
+            "God_2012": 30653,
+            "God_2013": 30599,
+            "God_2014": 30420,
+            "God_2015": 28512,
+            "God_2016": 27849,
+            "God_2017": 26496,
+            "God_2018": 25791,
+            "God_2019": 25203,
+            "God_2020": 24847,
+            "God_2021": 25033,
+            "God_2022": 24936,
+            "God_2023": 24377
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 21628,
+            "God_2011": 20790,
+            "God_2012": 19800,
+            "God_2013": 19515,
+            "God_2014": 18837,
+            "God_2015": 18294,
+            "God_2016": 18734,
+            "God_2017": 18862,
+            "God_2018": 19820,
+            "God_2019": 20268,
+            "God_2020": 20169,
+            "God_2021": 20411,
+            "God_2022": 21010,
+            "God_2023": 20655
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 45.4,
+            "2020_FEMALE": 54.6,
+            "2021_MALE": 43.4,
+            "2021_FEMALE": 56.6,
+            "2022_MALE": 40.9,
+            "2022_FEMALE": 59.1,
+            "2019_MALE": 43.2,
+            "2019_FEMALE": 56.8
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1005,
+              "God_2021": 1044,
+              "God_2022": 1144,
+              "God_2023": 1326
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 957,
+              "God_2021": 986,
+              "God_2022": 1119,
+              "God_2023": 1324
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1300,
+              "God_2021": 1376,
+              "God_2022": 1466,
+              "God_2023": 1652
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 834,
+              "God_2021": 864,
+              "God_2022": 971,
+              "God_2023": 1103
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1244,
+              "God_2021": 1307,
+              "God_2022": 1381,
+              "God_2023": 1505
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 875,
+              "God_2021": 902,
+              "God_2022": 1002,
+              "God_2023": 1116
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 846,
+              "God_2021": 884,
+              "God_2022": 988,
+              "God_2023": 1157
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 830,
+              "God_2021": 869,
+              "God_2022": 966,
+              "God_2023": 1106
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 933,
+              "God_2021": 948,
+              "God_2022": 1020,
+              "God_2023": 1169
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 759,
+              "God_2021": 799,
+              "God_2022": 908,
+              "God_2023": 1053
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1299,
+              "God_2021": 1350,
+              "God_2022": 1485,
+              "God_2023": 1669
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1254,
+              "God_2021": 1254,
+              "God_2022": 1368,
+              "God_2023": 1509
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 859,
+              "God_2021": 775,
+              "God_2022": 1215,
+              "God_2023": 1301
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1015,
+              "God_2021": 1031,
+              "God_2022": 1109,
+              "God_2023": 1264
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 770,
+              "God_2021": 785,
+              "God_2022": 868,
+              "God_2023": 984
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1262,
+              "God_2021": 1315,
+              "God_2022": 1443,
+              "God_2023": 1696
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1209,
+              "God_2021": 1286,
+              "God_2022": 1355,
+              "God_2023": 1556
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1374,
+              "God_2021": 1437,
+              "God_2022": 1559,
+              "God_2023": 1834
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 865,
+              "God_2021": 915,
+              "God_2022": 999,
+              "God_2023": 1172
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 909,
+              "God_2021": 857,
+              "God_2022": 966,
+              "God_2023": 1140
+            }
+          ]  
+        },
+        {
+          "id": "BP",
+          "stopa" : {
+              "God_2010": 31.8974710542,
+              "God_2011": 33.8367774498,
+              "God_2012": 34.6780718992,
+              "God_2013": 36.9597529196,
+              "God_2014": 38,
+              "God_2015": 30.8347935189,
+              "God_2016": 27.0991509053,
+              "God_2017": 22.409509879,
+              "God_2018": 19.9,
+              "God_2019": 15.7,
+              "God_2020": 14.6,
+              "God_2021": 16.2,
+              "God_2022": 14.5,
+              "God_2023": 12.2
+          }, 
+          "nezaposlenost": {
+              "God_2010": 16750,
+              "God_2011": 17766,
+              "God_2012": 18000,
+              "God_2013": 19147,
+              "God_2014": 19402,
+              "God_2015": 14254,
+              "God_2016": 12064,
+              "God_2017": 9652,
+              "God_2018": 8220,
+              "God_2019": 6616,
+              "God_2020": 6190,
+              "God_2021": 7131,
+              "God_2022": 6250,
+              "God_2023": 5346
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 1340,
+            "God_2011": 1334,
+            "God_2012": 1216,
+            "God_2013": 1081,
+            "God_2014": 940,
+            "God_2015": 853,
+            "God_2016": 811,
+            "God_2017": 798,
+            "God_2018": 815,
+            "God_2019": 815,
+            "God_2020": 810,
+            "God_2021": 860,
+            "God_2022": 841,
+            "God_2023": 839
+          },
+          "zaposleni_obrt": {
+            "God_2010": 7573,
+            "God_2011": 6816,
+            "God_2012": 6523,
+            "God_2013": 6347,
+            "God_2014": 6066,
+            "God_2015": 5895,
+            "God_2016": 5892,
+            "God_2017": 5705,
+            "God_2018": 5639,
+            "God_2019": 5827,
+            "God_2020": 5669,
+            "God_2021": 5742,
+            "God_2022": 6048,
+            "God_2023": 6162
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 26849,
+            "God_2011": 26589,
+            "God_2012": 26167,
+            "God_2013": 25230,
+            "God_2014": 24634,
+            "God_2015": 25225,
+            "God_2016": 25751,
+            "God_2017": 26916,
+            "God_2018": 26555,
+            "God_2019": 28877,
+            "God_2020": 29829,
+            "God_2021": 30154,
+            "God_2022": 29971,
+            "God_2023": 31393
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 52512,
+            "God_2011": 52505,
+            "God_2012": 51906,
+            "God_2013": 51805,
+            "God_2014": 51042,
+            "God_2015": 46227,
+            "God_2016": 44518,
+            "God_2017": 43071,
+            "God_2018": 41229,
+            "God_2019": 42135,
+            "God_2020": 42498,
+            "God_2021": 43887,
+            "God_2022": 43110,
+            "God_2023": 43740
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 35762,
+            "God_2011": 34739,
+            "God_2012": 33906,
+            "God_2013": 32658,
+            "God_2014": 31640,
+            "God_2015": 31973,
+            "God_2016": 32454,
+            "God_2017": 33419,
+            "God_2018": 33009,
+            "God_2019": 35519,
+            "God_2020": 36308,
+            "God_2021": 36756,
+            "God_2022": 36860,
+            "God_2023": 38394
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 40.6,
+            "2020_FEMALE": 59.4,
+            "2021_MALE": 39.8,
+            "2021_FEMALE": 60.2,
+            "2022_MALE": 34.5,
+            "2022_FEMALE": 65.5,
+            "2019_MALE": 39.8,
+            "2019_FEMALE": 60.2
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1054,
+              "God_2021": 1091,
+              "God_2022": 1180,
+              "God_2023": 1380
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1060,
+              "God_2021": 1078,
+              "God_2022": 1213,
+              "God_2023": 1436
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 963,
+              "God_2021": 997,
+              "God_2022": 1041,
+              "God_2023": 1313
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 910,
+              "God_2021": 944,
+              "God_2022": 1042,
+              "God_2023": 1233
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1311,
+              "God_2021": 1338,
+              "God_2022": 1406,
+              "God_2023": 1539
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 975,
+              "God_2021": 995,
+              "God_2022": 1067,
+              "God_2023": 1188
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 903,
+              "God_2021": 945,
+              "God_2022": 1030,
+              "God_2023": 1233
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 880,
+              "God_2021": 922,
+              "God_2022": 1013,
+              "God_2023": 1157
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1027,
+              "God_2021": 1038,
+              "God_2022": 1103,
+              "God_2023": 1291
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 750,
+              "God_2021": 817,
+              "God_2022": 924,
+              "God_2023": 1093
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1225,
+              "God_2021": 1281,
+              "God_2022": 1406,
+              "God_2023": 1623
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1286,
+              "God_2021": 1360,
+              "God_2022": 1464,
+              "God_2023": 1627
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 796,
+              "God_2021": 837,
+              "God_2022": 879,
+              "God_2023": 1253
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1127,
+              "God_2021": 1185,
+              "God_2022": 1222,
+              "God_2023": 1406
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 792,
+              "God_2021": 811,
+              "God_2022": 914,
+              "God_2023": 1080
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1265,
+              "God_2021": 1283,
+              "God_2022": 1400,
+              "God_2023": 1671
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1249,
+              "God_2021": 1329,
+              "God_2022": 1395,
+              "God_2023": 1586
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1555,
+              "God_2021": 1594,
+              "God_2022": 1694,
+              "God_2023": 1977
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 905,
+              "God_2021": 938,
+              "God_2022": 991,
+              "God_2023": 1169
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 780,
+              "God_2021": 807,
+              "God_2022": 988,
+              "God_2023": 1150
+            }
+          ] 
+        },
+        {
+          "id": "ZD",
+          "stopa" : {
+              "God_2010": 21.1250831903,
+              "God_2011": 21.0230784172,
+              "God_2012": 21.1402097222,
+              "God_2013": 22.5283543762,
+              "God_2014": 22.5,
+              "God_2015": 17.7344492702,
+              "God_2016": 16.0187102216,
+              "God_2017": 13.3429938795,
+              "God_2018": 10.7,
+              "God_2019": 9.2,
+              "God_2020": 9.2,
+              "God_2021": 8.5,
+              "God_2022": 6.7,
+              "God_2023": 5.3
+          }, 
+          "nezaposlenost": {
+              "God_2010": 12062,
+              "God_2011": 11906,
+              "God_2012": 11955,
+              "God_2013": 12633,
+              "God_2014": 12682,
+              "God_2015": 9514,
+              "God_2016": 8356,
+              "God_2017": 6998,
+              "God_2018": 5780,
+              "God_2019": 5028,
+              "God_2020": 4972,
+              "God_2021": 4802,
+              "God_2022": 3893,
+              "God_2023": 3600
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 397,
+            "God_2011": 360,
+            "God_2012": 399,
+            "God_2013": 372,
+            "God_2014": 371,
+            "God_2015": 357,
+            "God_2016": 368,
+            "God_2017": 376,
+            "God_2018": 431,
+            "God_2019": 517,
+            "God_2020": 577,
+            "God_2021": 630,
+            "God_2022": 691,
+            "God_2023": 737
+          },
+          "zaposleni_obrt": {
+            "God_2010": 10854,
+            "God_2011": 10370,
+            "God_2012": 10079,
+            "God_2013": 9785,
+            "God_2014": 9382,
+            "God_2015": 9116,
+            "God_2016": 9164,
+            "God_2017": 9190,
+            "God_2018": 9253,
+            "God_2019": 9237,
+            "God_2020": 9102,
+            "God_2021": 9305,
+            "God_2022": 9535,
+            "God_2023": 10023
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 33785,
+            "God_2011": 33997,
+            "God_2012": 34118,
+            "God_2013": 33286,
+            "God_2014": 33821,
+            "God_2015": 34660,
+            "God_2016": 34276,
+            "God_2017": 35883,
+            "God_2018": 38569,
+            "God_2019": 39847,
+            "God_2020": 39360,
+            "God_2021": 41469,
+            "God_2022": 43649,
+            "God_2023": 52965
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 57098,
+            "God_2011": 56633,
+            "God_2012": 56551,
+            "God_2013": 56076,
+            "God_2014": 56256,
+            "God_2015": 53647,
+            "God_2016": 52164,
+            "God_2017": 52447,
+            "God_2018": 54033,
+            "God_2019": 54629,
+            "God_2020": 54011,
+            "God_2021": 56206,
+            "God_2022": 57768,
+            "God_2023": 67325
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 45036,
+            "God_2011": 44727,
+            "God_2012": 44596,
+            "God_2013": 43443,
+            "God_2014": 43574,
+            "God_2015": 44133,
+            "God_2016": 43808,
+            "God_2017": 45449,
+            "God_2018": 48253,
+            "God_2019": 49601,
+            "God_2020": 49039,
+            "God_2021": 51404,
+            "God_2022": 53875,
+            "God_2023": 63725
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 44.1,
+            "2020_FEMALE": 55.9,
+            "2021_MALE": 44.6,
+            "2021_FEMALE": 55.4,
+            "2022_MALE": 44.5,
+            "2022_FEMALE": 55.5,
+            "2019_MALE": 44.7,
+            "2019_FEMALE": 55.3
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1114,
+              "God_2021": 1162,
+              "God_2022": 1250,
+              "God_2023": 1448
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1130,
+              "God_2021": 1148,
+              "God_2022": 1189,
+              "God_2023": 1352
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1087,
+              "God_2021": 1138,
+              "God_2022": 1210,
+              "God_2023": 1342
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 971,
+              "God_2021": 1024,
+              "God_2022": 1114,
+              "God_2023": 1321
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1505,
+              "God_2021": 1586,
+              "God_2022": 1595,
+              "God_2023": 1705
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1033,
+              "God_2021": 1032,
+              "God_2022": 1105,
+              "God_2023": 1237
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 854,
+              "God_2021": 904,
+              "God_2022": 1006,
+              "God_2023": 1168
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 930,
+              "God_2021": 989,
+              "God_2022": 1094,
+              "God_2023": 1259
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1123,
+              "God_2021": 1156,
+              "God_2022": 1275,
+              "God_2023": 1486
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 948,
+              "God_2021": 984,
+              "God_2022": 1114,
+              "God_2023": 1298
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1254,
+              "God_2021": 1390,
+              "God_2022": 1536,
+              "God_2023": 1822
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1638,
+              "God_2021": 1685,
+              "God_2022": 1793,
+              "God_2023": 2002
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 968,
+              "God_2021": 1023,
+              "God_2022": 1141,
+              "God_2023": 1316
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1225,
+              "God_2021": 1265,
+              "God_2022": 1357,
+              "God_2023": 1560
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 859,
+              "God_2021": 906,
+              "God_2022": 1028,
+              "God_2023": 1201
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1396,
+              "God_2021": 1434,
+              "God_2022": 1510,
+              "God_2023": 1759
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1297,
+              "God_2021": 1378,
+              "God_2022": 1441,
+              "God_2023": 1637
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1432,
+              "God_2021": 1514,
+              "God_2022": 1583,
+              "God_2023": 1859
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1058,
+              "God_2021": 1092,
+              "God_2022": 1144,
+              "God_2023": 1356
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 975,
+              "God_2021": 1011,
+              "God_2022": 1105,
+              "God_2023": 1257
+            }
+          ]  
+        },
+        {
+          "id": "OB",
+          "stopa" : {
+              "God_2010": 28.181539659,
+              "God_2011": 28.5186310663,
+              "God_2012": 29.2992794183,
+              "God_2013": 32.0697090979,
+              "God_2014": 34.3,
+              "God_2015": 31.9423577836,
+              "God_2016": 28.804137397,
+              "God_2017": 24.9165382033,
+              "God_2018": 21.2,
+              "God_2019": 17.6,
+              "God_2020": 16.8,
+              "God_2021": 16.8,
+              "God_2022": 14.9,
+              "God_2023": 13.5
+          }, 
+          "nezaposlenost": {
+              "God_2010": 34034,
+              "God_2011": 34724,
+              "God_2012": 35700,
+              "God_2013": 38221,
+              "God_2014": 40208,
+              "God_2015": 35931,
+              "God_2016": 31245,
+              "God_2017": 26346,
+              "God_2018": 21900,
+              "God_2019": 17834,
+              "God_2020": 17202,
+              "God_2021": 17645,
+              "God_2022": 15369,
+              "God_2023": 13851
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 2772,
+            "God_2011": 2770,
+            "God_2012": 2696,
+            "God_2013": 2421,
+            "God_2014": 2136,
+            "God_2015": 2024,
+            "God_2016": 1942,
+            "God_2017": 1969,
+            "God_2018": 2000,
+            "God_2019": 1991,
+            "God_2020": 1967,
+            "God_2021": 1950,
+            "God_2022": 1873,
+            "God_2023": 1903
+          },
+          "zaposleni_obrt": {
+            "God_2010": 11577,
+            "God_2011": 11378,
+            "God_2012": 11055,
+            "God_2013": 10844,
+            "God_2014": 10244,
+            "God_2015": 9996,
+            "God_2016": 10040,
+            "God_2017": 9740,
+            "God_2018": 9994,
+            "God_2019": 10116,
+            "God_2020": 10286,
+            "God_2021": 10444,
+            "God_2022": 10857,
+            "God_2023": 10867
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 72384,
+            "God_2011": 72887,
+            "God_2012": 72395,
+            "God_2013": 67695,
+            "God_2014": 64712,
+            "God_2015": 64536,
+            "God_2016": 65247,
+            "God_2017": 67682,
+            "God_2018": 69442,
+            "God_2019": 71355,
+            "God_2020": 73173,
+            "God_2021": 74682,
+            "God_2022": 75191,
+            "God_2023": 76312
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 120767,
+            "God_2011": 121759,
+            "God_2012": 121846,
+            "God_2013": 119181,
+            "God_2014": 117300,
+            "God_2015": 112487,
+            "God_2016": 108474,
+            "God_2017": 105737,
+            "God_2018": 103336,
+            "God_2019": 101296,
+            "God_2020": 102628,
+            "God_2021": 104721,
+            "God_2022": 103290,
+            "God_2023": 102933
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 86733,
+            "God_2011": 87035,
+            "God_2012": 86146,
+            "God_2013": 80960,
+            "God_2014": 77092,
+            "God_2015": 76556,
+            "God_2016": 77229,
+            "God_2017": 79391,
+            "God_2018": 81436,
+            "God_2019": 83462,
+            "God_2020": 85426,
+            "God_2021": 87076,
+            "God_2022": 87921,
+            "God_2023": 89082
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 41.1,
+            "2020_FEMALE": 58.9,
+            "2021_MALE": 41.0,
+            "2021_FEMALE": 59.0,
+            "2022_MALE": 38.0,
+            "2022_FEMALE": 62.0,
+            "2019_MALE": 40.8,
+            "2019_FEMALE": 59.2
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1113,
+              "God_2021": 1152,
+              "God_2022": 1250,
+              "God_2023": 1446
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1030,
+              "God_2021": 1056,
+              "God_2022": 1182,
+              "God_2023": 1375
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1341,
+              "God_2021": 1465,
+              "God_2022": 1715,
+              "God_2023": 1937
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 933,
+              "God_2021": 966,
+              "God_2022": 1059,
+              "God_2023": 1230
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1472,
+              "God_2021": 1522,
+              "God_2022": 1576,
+              "God_2023": 1697
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1036,
+              "God_2021": 1079,
+              "God_2022": 1147,
+              "God_2023": 1262
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 943,
+              "God_2021": 983,
+              "God_2022": 1069,
+              "God_2023": 1249
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 935,
+              "God_2021": 972,
+              "God_2022": 1067,
+              "God_2023": 1209
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 961,
+              "God_2021": 982,
+              "God_2022": 1060,
+              "God_2023": 1203
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 775,
+              "God_2021": 811,
+              "God_2022": 915,
+              "God_2023": 1063
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1356,
+              "God_2021": 1423,
+              "God_2022": 1628,
+              "God_2023": 1900
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1354,
+              "God_2021": 1370,
+              "God_2022": 1473,
+              "God_2023": 1641
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 1001,
+              "God_2021": 1036,
+              "God_2022": 1109,
+              "God_2023": 1236
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1188,
+              "God_2021": 1249,
+              "God_2022": 1340,
+              "God_2023": 1517
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 792,
+              "God_2021": 820,
+              "God_2022": 914,
+              "God_2023": 1061
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1301,
+              "God_2021": 1329,
+              "God_2022": 1462,
+              "God_2023": 1725
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1357,
+              "God_2021": 1445,
+              "God_2022": 1523,
+              "God_2023": 1735
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1569,
+              "God_2021": 1616,
+              "God_2022": 1719,
+              "God_2023": 2018
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1046,
+              "God_2021": 1066,
+              "God_2022": 1116,
+              "God_2023": 1284
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 841,
+              "God_2021": 835,
+              "God_2022": 979,
+              "God_2023": 1166
+            }
+          ]
+        },
+        {
+          "id": "SK",
+          "stopa" : {
+              "God_2010": 23.2825986332,
+              "God_2011": 23.302426295,
+              "God_2012": 24.0095022254,
+              "God_2013": 24.8459459459,
+              "God_2014": 25.5,
+              "God_2015": 23.2605805451,
+              "God_2016": 22.5374020759,
+              "God_2017": 19.8687178301,
+              "God_2018": 15.4,
+              "God_2019": 14.2,
+              "God_2020": 14.3,
+              "God_2021": 14.5,
+              "God_2022": 12.8,
+              "God_2023": 10.9
+          }, 
+          "nezaposlenost": {
+              "God_2010": 8551,
+              "God_2011": 8394,
+              "God_2012": 8793,
+              "God_2013": 9193,
+              "God_2014": 9452,
+              "God_2015": 8398,
+              "God_2016": 7969,
+              "God_2017": 6871,
+              "God_2018": 5325,
+              "God_2019": 4841,
+              "God_2020": 4945,
+              "God_2021": 5182,
+              "God_2022": 4623,
+              "God_2023": 3933
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 204,
+            "God_2011": 185,
+            "God_2012": 222,
+            "God_2013": 194,
+            "God_2014": 175,
+            "God_2015": 173,
+            "God_2016": 169,
+            "God_2017": 190,
+            "God_2018": 212,
+            "God_2019": 232,
+            "God_2020": 267,
+            "God_2021": 293,
+            "God_2022": 310,
+            "God_2023": 315
+          },
+          "zaposleni_obrt": {
+            "God_2010":  5896,
+            "God_2011":  5408,
+            "God_2012":  5268,
+            "God_2013":  5174,
+            "God_2014":  5040,
+            "God_2015":  4950,
+            "God_2016":  4915,
+            "God_2017":  4926,
+            "God_2018":  4980,
+            "God_2019":  5123,
+            "God_2020":  4954,
+            "God_2021":  5122,
+            "God_2022":  5431,
+            "God_2023":  5592
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 22076,
+            "God_2011": 22035,
+            "God_2012": 22340,
+            "God_2013": 22439,
+            "God_2014": 22337,
+            "God_2015": 22583,
+            "God_2016": 22306,
+            "God_2017": 22595,
+            "God_2018": 24137,
+            "God_2019": 23935,
+            "God_2020": 24337,
+            "God_2021": 25146,
+            "God_2022": 25710,
+            "God_2023": 26195
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 36727,
+            "God_2011": 36022,
+            "God_2012": 36623,
+            "God_2013": 37000,
+            "God_2014": 37004,
+            "God_2015": 36104,
+            "God_2016": 35359,
+            "God_2017": 34582,
+            "God_2018": 34654,
+            "God_2019": 34131,
+            "God_2020": 34503,
+            "God_2021": 35743,
+            "God_2022": 36074,
+            "God_2023": 36035
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 28176,
+            "God_2011": 27628,
+            "God_2012": 27830,
+            "God_2013": 27807,
+            "God_2014": 27552,
+            "God_2015": 27706,
+            "God_2016": 27390,
+            "God_2017": 27711,
+            "God_2018": 29329,
+            "God_2019": 29290,
+            "God_2020": 29558,
+            "God_2021": 30561,
+            "God_2022": 31451,
+            "God_2023": 32102
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 47.7,
+            "2020_FEMALE": 52.3,
+            "2021_MALE": 48.0,
+            "2021_FEMALE": 52.0,
+            "2022_MALE": 45.7,
+            "2022_FEMALE": 54.3,
+            "2019_MALE": 48.8,
+            "2019_FEMALE": 51.2
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1086,
+              "God_2021": 1139,
+              "God_2022": 1238,
+              "God_2023": 1444
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 920,
+              "God_2021": 941,
+              "God_2022": 1014,
+              "God_2023": 1274
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1247,
+              "God_2021": 1432,
+              "God_2022": 1693,
+              "God_2023": 1760
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1000,
+              "God_2021": 1090,
+              "God_2022": 1191,
+              "God_2023": 1382
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1553,
+              "God_2021": 1655,
+              "God_2022": 1598,
+              "God_2023": 1749
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 993,
+              "God_2021": 1020,
+              "God_2022": 1089,
+              "God_2023": 1206
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 881,
+              "God_2021": 926,
+              "God_2022": 1009,
+              "God_2023": 1181
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 871,
+              "God_2021": 905,
+              "God_2022": 1010,
+              "God_2023": 1190
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1000,
+              "God_2021": 1020,
+              "God_2022": 1134,
+              "God_2023": 1300
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 911,
+              "God_2021": 982,
+              "God_2022": 1179,
+              "God_2023": 1368
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1247,
+              "God_2021": 1344,
+              "God_2022": 1504,
+              "God_2023": 1795
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1336,
+              "God_2021": 1360,
+              "God_2022": 1442,
+              "God_2023": 1641
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 974,
+              "God_2021": 1058,
+              "God_2022": 1092,
+              "God_2023": 1183
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1176,
+              "God_2021": 1206,
+              "God_2022": 1302,
+              "God_2023": 1502
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 919,
+              "God_2021": 958,
+              "God_2022": 1086,
+              "God_2023": 1394
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1345,
+              "God_2021": 1387,
+              "God_2022": 1469,
+              "God_2023": 1737
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1194,
+              "God_2021": 1267,
+              "God_2022": 1340,
+              "God_2023": 1525
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1462,
+              "God_2021": 1539,
+              "God_2022": 1661,
+              "God_2023": 1943
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1082,
+              "God_2021": 1163,
+              "God_2022": 1224,
+              "God_2023": 1412
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 892,
+              "God_2021": 902,
+              "God_2022": 1077,
+              "God_2023": 1251
+            }
+          ] 
+        },
+        {
+          "id": "VS",
+          "stopa" : {
+              "God_2010": 31.8235350288,
+              "God_2011": 32.2232540267,
+              "God_2012": 32.9426706537,
+              "God_2013": 35.8391636254,
+              "God_2014": 38,
+              "God_2015": 33.5933176536,
+              "God_2016": 29.6666545494,
+              "God_2017": 25.1295434774,
+              "God_2018": 20.5,
+              "God_2019": 16,
+              "God_2020": 15.1,
+              "God_2021": 14.5,
+              "God_2022": 13,
+              "God_2023": 10.8
+          }, 
+          "nezaposlenost": {
+              "God_2010": 19996,
+              "God_2011": 20126,
+              "God_2012": 20491,
+              "God_2013": 22488,
+              "God_2014": 23352,
+              "God_2015": 19425,
+              "God_2016": 16322,
+              "God_2017": 13288,
+              "God_2018": 10623,
+              "God_2019": 8065,
+              "God_2020": 7509,
+              "God_2021": 7476,
+              "God_2022": 6553,
+              "God_2023": 5384
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 2605,
+            "God_2011": 2590,
+            "God_2012": 2481,
+            "God_2013": 2233,
+            "God_2014": 1919,
+            "God_2015": 1756,
+            "God_2016": 1668,
+            "God_2017": 1618,
+            "God_2018": 1623,
+            "God_2019": 1623,
+            "God_2020": 1629,
+            "God_2021": 1683,
+            "God_2022": 1711,
+            "God_2023": 1718
+          },
+          "zaposleni_obrt": {
+            "God_2010": 8541,
+            "God_2011": 7873,
+            "God_2012": 7338,
+            "God_2013": 6866,
+            "God_2014": 6419,
+            "God_2015": 6226,
+            "God_2016": 6080,
+            "God_2017": 5917,
+            "God_2018": 5860,
+            "God_2019": 5860,
+            "God_2020": 5908,
+            "God_2021": 6121,
+            "God_2022": 6375,
+            "God_2023": 6488
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 31692,
+            "God_2011": 31869,
+            "God_2012": 31892,
+            "God_2013": 31160,
+            "God_2014": 29763,
+            "God_2015": 30417,
+            "God_2016": 30948,
+            "God_2017": 32055,
+            "God_2018": 33760,
+            "God_2019": 34802,
+            "God_2020": 34686,
+            "God_2021": 36157,
+            "God_2022": 35813,
+            "God_2023": 36390
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 62834,
+            "God_2011": 62458,
+            "God_2012": 62202,
+            "God_2013": 62747,
+            "God_2014": 61453,
+            "God_2015": 57824,
+            "God_2016": 55018,
+            "God_2017": 52878,
+            "God_2018": 51866,
+            "God_2019": 50350,
+            "God_2020": 49732,
+            "God_2021": 51437,
+            "God_2022": 50452,
+            "God_2023": 49980
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 42838,
+            "God_2011": 42332,
+            "God_2012": 41711,
+            "God_2013": 40259,
+            "God_2014": 38101,
+            "God_2015": 38399,
+            "God_2016": 38696,
+            "God_2017": 39590,
+            "God_2018": 41243,
+            "God_2019": 42285,
+            "God_2020": 42223,
+            "God_2021": 43961,
+            "God_2022": 43899,
+            "God_2023": 44596
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 39.1,
+            "2020_FEMALE": 60.1,
+            "2021_MALE": 39.9,
+            "2021_FEMALE": 60.1,
+            "2022_MALE": 34.0,
+            "2022_FEMALE": 66.0,
+            "2019_MALE": 39.9,
+            "2019_FEMALE": 60.1
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1030,
+              "God_2021": 1065,
+              "God_2022": 1156,
+              "God_2023": 1346
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 987,
+              "God_2021": 996,
+              "God_2022": 1125,
+              "God_2023": 1278
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1279,
+              "God_2021": 1415,
+              "God_2022": 1892,
+              "God_2023": 2280
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 851,
+              "God_2021": 889,
+              "God_2022": 973,
+              "God_2023": 1110
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1333,
+              "God_2021": 1387,
+              "God_2022": 1423,
+              "God_2023": 1526
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 952,
+              "God_2021": 976,
+              "God_2022": 1046,
+              "God_2023": 1146
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 886,
+              "God_2021": 922,
+              "God_2022": 1003,
+              "God_2023": 1167
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 808,
+              "God_2021": 847,
+              "God_2022": 923,
+              "God_2023": 1081
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1002,
+              "God_2021": 1021,
+              "God_2022": 1114,
+              "God_2023": 1282
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 741,
+              "God_2021": 791,
+              "God_2022": 893,
+              "God_2023": 1056
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1273,
+              "God_2021": 1363,
+              "God_2022": 1552,
+              "God_2023": 1759
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1286,
+              "God_2021": 1300,
+              "God_2022": 1421,
+              "God_2023": 1633
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 919,
+              "God_2021": 940,
+              "God_2022": 1038,
+              "God_2023": 1177
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1093,
+              "God_2021": 1140,
+              "God_2022": 1229,
+              "God_2023": 1392
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 759,
+              "God_2021": 792,
+              "God_2022": 874,
+              "God_2023": 1017
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1246,
+              "God_2021": 1260,
+              "God_2022": 1415,
+              "God_2023": 1699
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1206,
+              "God_2021": 1283,
+              "God_2022": 1347,
+              "God_2023": 1541
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1375,
+              "God_2021": 1437,
+              "God_2022": 1530,
+              "God_2023": 1801
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 927,
+              "God_2021": 966,
+              "God_2022": 1033,
+              "God_2023": 1171
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 941,
+              "God_2021": 910,
+              "God_2022": 1059,
+              "God_2023": 1201
+            }
+          ] 
+        },
+        { 
+          "id": "SD",
+          "stopa" : {
+              "God_2010": 22.7375616066,
+              "God_2011": 24.0061230419,
+              "God_2012": 25.7615665878,
+              "God_2013": 27.9433098984,
+              "God_2014": 28.6,
+              "God_2015": 26.0955316225,
+              "God_2016": 24.1070536737,
+              "God_2017": 21.373790866,
+              "God_2018": 18.2,
+              "God_2019": 15.4,
+              "God_2020": 14.6,
+              "God_2021": 16.6,
+              "God_2022": 13.8,
+              "God_2023": 11.8
+          }, 
+          "nezaposlenost": {
+              "God_2010": 40783,
+              "God_2011": 42970,
+              "God_2012": 46360,
+              "God_2013": 50080,
+              "God_2014": 51458,
+              "God_2015": 45383,
+              "God_2016": 41029,
+              "God_2017": 35840,
+              "God_2018": 30158,
+              "God_2019": 25690,
+              "God_2020": 24448,
+              "God_2021": 28806,
+              "God_2022": 23803,
+              "God_2023": 20549
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 1037,
+            "God_2011": 933,
+            "God_2012": 911,
+            "God_2013": 827,
+            "God_2014": 815,
+            "God_2015": 782,
+            "God_2016": 719,
+            "God_2017": 709,
+            "God_2018": 722,
+            "God_2019": 766,
+            "God_2020": 739,
+            "God_2021": 750,
+            "God_2022": 786,
+            "God_2023": 804
+          },
+          "zaposleni_obrt": {
+            "God_2010": 27671,
+            "God_2011": 26301,
+            "God_2012": 25094,
+            "God_2013": 24426,
+            "God_2014": 24355,
+            "God_2015": 23279,
+            "God_2016": 23189,
+            "God_2017": 23129,
+            "God_2018": 22875,
+            "God_2019": 22882,
+            "God_2020": 22651,
+            "God_2021": 22965,
+            "God_2022": 23503,
+            "God_2023": 24318
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 109873,
+            "God_2011": 108792,
+            "God_2012": 107593,
+            "God_2013": 103887,
+            "God_2014": 103025,
+            "God_2015": 104467,
+            "God_2016": 105258,
+            "God_2017": 108004,
+            "God_2018": 112101,
+            "God_2019": 117207,
+            "God_2020": 119494,
+            "God_2021": 120902,
+            "God_2022": 123976,
+            "God_2023": 128692
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 179364,
+            "God_2011": 178996,
+            "God_2012": 179958,
+            "God_2013": 179220,
+            "God_2014": 179653,
+            "God_2015": 173911,
+            "God_2016": 170195,
+            "God_2017": 167682,
+            "God_2018": 165856,
+            "God_2019": 166545,
+            "God_2020": 167332,
+            "God_2021": 173423,
+            "God_2022": 172068,
+            "God_2023": 174363
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 138581,
+            "God_2011": 136026,
+            "God_2012": 133598,
+            "God_2013": 129140,
+            "God_2014": 128195,
+            "God_2015": 128528,
+            "God_2016": 129166,
+            "God_2017": 131842,
+            "God_2018": 135698,
+            "God_2019": 140855,
+            "God_2020": 142884,
+            "God_2021": 144617,
+            "God_2022": 148265,
+            "God_2023": 153814
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 44.4,
+            "2020_FEMALE": 55.6,
+            "2021_MALE": 44.9,
+            "2021_FEMALE": 55.1,
+            "2022_MALE": 44.7,
+            "2022_FEMALE": 55.3,
+            "2019_MALE": 43.7,
+            "2019_FEMALE": 56.3
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1144,
+              "God_2021": 1192,
+              "God_2022": 1290,
+              "God_2023": 1499
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 937,
+              "God_2021": 949,
+              "God_2022": 1039,
+              "God_2023": 1226
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1111,
+              "God_2021": 1164,
+              "God_2022": 1228,
+              "God_2023": 1350
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1120,
+              "God_2021": 1157,
+              "God_2022": 1211,
+              "God_2023": 1384
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1574,
+              "God_2021": 1634,
+              "God_2022": 1673,
+              "God_2023": 1783
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1172,
+              "God_2021": 1218,
+              "God_2022": 1284,
+              "God_2023": 1430
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 948,
+              "God_2021": 982,
+              "God_2022": 1080,
+              "God_2023": 1253
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 968,
+              "God_2021": 1013,
+              "God_2022": 1114,
+              "God_2023": 1295
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1119,
+              "God_2021": 1155,
+              "God_2022": 1289,
+              "God_2023": 1492
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 884,
+              "God_2021": 930,
+              "God_2022": 1083,
+              "God_2023": 1265
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1489,
+              "God_2021": 1605,
+              "God_2022": 1888,
+              "God_2023": 2206
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1482,
+              "God_2021": 1515,
+              "God_2022": 1610,
+              "God_2023": 1801
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 1065,
+              "God_2021": 1096,
+              "God_2022": 1209,
+              "God_2023": 1417
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1223,
+              "God_2021": 1270,
+              "God_2022": 1367,
+              "God_2023": 1544
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 877,
+              "God_2021": 906,
+              "God_2022": 1020,
+              "God_2023": 1229
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1360,
+              "God_2021": 1414,
+              "God_2022": 1495,
+              "God_2023": 1765
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1303,
+              "God_2021": 1378,
+              "God_2022": 1448,
+              "God_2023": 1637
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1534,
+              "God_2021": 1622,
+              "God_2022": 1698,
+              "God_2023": 2007
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1061,
+              "God_2021": 1134,
+              "God_2022": 1242,
+              "God_2023": 1453
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 933,
+              "God_2021": 942,
+              "God_2022": 1039,
+              "God_2023": 1223
+            }
+          ] 
+        },
+        {
+          "id": "IS",
+          "stopa" : {
+              "God_2010": 10.6947757175,
+              "God_2011": 11.515274903,
+              "God_2012": 10.8980472298,
+              "God_2013": 12.6428727327,
+              "God_2014": 12.9,
+              "God_2015": 9.8517924856,
+              "God_2016": 8.4255298812,
+              "God_2017": 6.2264195715,
+              "God_2018": 4.9,
+              "God_2019": 4.6,
+              "God_2020": 6.3,
+              "God_2021": 6.8,
+              "God_2022": 4,
+              "God_2023": 3.6
+          }, 
+          "nezaposlenost": {
+              "God_2010": 9730,
+              "God_2011": 10181,
+              "God_2012": 9599,
+              "God_2013": 11006,
+              "God_2014": 11194,
+              "God_2015": 8236,
+              "God_2016": 7052,
+              "God_2017": 5248,
+              "God_2018": 4258,
+              "God_2019": 3933,
+              "God_2020": 5390,
+              "God_2021": 5950,
+              "God_2022": 3468,
+              "God_2023": 3230
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 971,
+            "God_2011": 886,
+            "God_2012": 922,
+            "God_2013": 864,
+            "God_2014": 827,
+            "God_2015": 797,
+            "God_2016": 782,
+            "God_2017": 774,
+            "God_2018": 751,
+            "God_2019": 768,
+            "God_2020": 749,
+            "God_2021": 747,
+            "God_2022": 777,
+            "God_2023": 783
+          },
+          "zaposleni_obrt": {
+            "God_2010": 17999,
+            "God_2011": 16795,
+            "God_2012": 16338,
+            "God_2013": 15919,
+            "God_2014": 15321,
+            "God_2015": 15097,
+            "God_2016": 14962,
+            "God_2017": 14712,
+            "God_2018": 14895,
+            "God_2019": 14919,
+            "God_2020": 14684,
+            "God_2021": 14953,
+            "God_2022": 15715,
+            "God_2023": 16282
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 62279,
+            "God_2011": 60551,
+            "God_2012": 61221,
+            "God_2013": 59264,
+            "God_2014": 59203,
+            "God_2015": 59469,
+            "God_2016": 60902,
+            "God_2017": 63552,
+            "God_2018": 66828,
+            "God_2019": 66253,
+            "God_2020": 65207,
+            "God_2021": 65298,
+            "God_2022": 67538,
+            "God_2023": 70444
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 90979,
+            "God_2011": 88413,
+            "God_2012": 88080,
+            "God_2013": 87053,
+            "God_2014": 86545,
+            "God_2015": 83599,
+            "God_2016": 83698,
+            "God_2017": 84286,
+            "God_2018": 86732,
+            "God_2019": 85873,
+            "God_2020": 86030,
+            "God_2021": 86948,
+            "God_2022": 87498,
+            "God_2023": 90739
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 81249,
+            "God_2011": 78232,
+            "God_2012": 78481,
+            "God_2013": 76047,
+            "God_2014": 75351,
+            "God_2015": 75363,
+            "God_2016": 76646,
+            "God_2017": 79038,
+            "God_2018": 82474,
+            "God_2019": 81940,
+            "God_2020": 80640,
+            "God_2021": 80998,
+            "God_2022": 84030,
+            "God_2023": 87509
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 49.5,
+            "2020_FEMALE": 50.5,
+            "2021_MALE": 50.3,
+            "2021_FEMALE": 49.7,
+            "2022_MALE": 46.8,
+            "2022_FEMALE": 53.2,
+            "2019_MALE": 53.9,
+            "2019_FEMALE": 46.1
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1136,
+              "God_2021": 1196,
+              "God_2022": 1303,
+              "God_2023": 1482
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1050,
+              "God_2021": 1109,
+              "God_2022": 1215,
+              "God_2023": 1396
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1374,
+              "God_2021": 1374,
+              "God_2022": 1496,
+              "God_2023": 1635
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1105,
+              "God_2021": 1173,
+              "God_2022": 1289,
+              "God_2023": 1438
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1599,
+              "God_2021": 1677,
+              "God_2022": 1712,
+              "God_2023": 1830
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1161,
+              "God_2021": 1196,
+              "God_2022": 1287,
+              "God_2023": 1437
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 930,
+              "God_2021": 964,
+              "God_2022": 1038,
+              "God_2023": 1223
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 987,
+              "God_2021": 1045,
+              "God_2022": 1168,
+              "God_2023": 1350
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1031,
+              "God_2021": 1069,
+              "God_2022": 1168,
+              "God_2023": 1372
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 1127,
+              "God_2021": 1196,
+              "God_2022": 1337,
+              "God_2023": 1476
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1667,
+              "God_2021": 1842,
+              "God_2022": 2041,
+              "God_2023": 2288
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1439,
+              "God_2021": 1484,
+              "God_2022": 1613,
+              "God_2023": 1839
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 1001,
+              "God_2021": 1066,
+              "God_2022": 1165,
+              "God_2023": 1298
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1218,
+              "God_2021": 1241,
+              "God_2022": 1339,
+              "God_2023": 1526
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 885,
+              "God_2021": 921,
+              "God_2022": 1015,
+              "God_2023": 1172
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1386,
+              "God_2021": 1454,
+              "God_2022": 1540,
+              "God_2023": 1797
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1209,
+              "God_2021": 1281,
+              "God_2022": 1353,
+              "God_2023": 1538
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1414,
+              "God_2021": 1515,
+              "God_2022": 1610,
+              "God_2023": 1850
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1004,
+              "God_2021": 1058,
+              "God_2022": 1179,
+              "God_2023": 1365
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 1013,
+              "God_2021": 1054,
+              "God_2022": 1156,
+              "God_2023": 1310
+            }
+          ]
+        },
+        {
+          "id": "DN",
+          "stopa" : {
+              "God_2010": 17.9346584419,
+              "God_2011": 18.7639927343,
+              "God_2012": 19.0329065707,
+              "God_2013": 20.4626108999,
+              "God_2014": 21.5,
+              "God_2015": 20.5442468395,
+              "God_2016": 18.313494603,
+              "God_2017": 16.5150048403,
+              "God_2018": 13,
+              "God_2019": 12.7,
+              "God_2020": 13.1,
+              "God_2021": 14,
+              "God_2022": 12,
+              "God_2023": 10.6
+          }, 
+          "nezaposlenost": {
+              "God_2010": 8635,
+              "God_2011": 8884,
+              "God_2012": 8994,
+              "God_2013": 9687,
+              "God_2014": 10293,
+              "God_2015": 9588,
+              "God_2016": 8585,
+              "God_2017": 7677,
+              "God_2018": 5975,
+              "God_2019": 5954,
+              "God_2020": 6276,
+              "God_2021": 6619,
+              "God_2022": 5646,
+              "God_2023": 5157
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 579,
+            "God_2011": 538,
+            "God_2012": 525,
+            "God_2013": 490,
+            "God_2014": 461,
+            "God_2015": 446,
+            "God_2016": 431,
+            "God_2017": 453,
+            "God_2018": 443,
+            "God_2019": 458,
+            "God_2020": 449,
+            "God_2021": 447,
+            "God_2022": 467,
+            "God_2023": 489
+          },
+          "zaposleni_obrt": {
+            "God_2010": 7200,
+            "God_2011": 7068,
+            "God_2012": 6935,
+            "God_2013": 6851,
+            "God_2014": 6671,
+            "God_2015": 6565,
+            "God_2016": 6748,
+            "God_2017": 6695,
+            "God_2018": 6846,
+            "God_2019": 6967,
+            "God_2020": 7041,
+            "God_2021": 7034,
+            "God_2022": 6885,
+            "God_2023": 7211
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 31733,
+            "God_2011": 30856,
+            "God_2012": 30801,
+            "God_2013": 30312,
+            "God_2014": 30546,
+            "God_2015": 30071,
+            "God_2016": 31114,
+            "God_2017": 31660,
+            "God_2018": 32802,
+            "God_2019": 33531,
+            "God_2020": 34076,
+            "God_2021": 33320,
+            "God_2022": 34142,
+            "God_2023": 35960
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 48147,
+            "God_2011": 47346,
+            "God_2012": 47255,
+            "God_2013": 47340,
+            "God_2014": 47971,
+            "God_2015": 46670,
+            "God_2016": 46878,
+            "God_2017": 46485,
+            "God_2018": 46066,
+            "God_2019": 46910,
+            "God_2020": 47842,
+            "God_2021": 47420,
+            "God_2022": 47140,
+            "God_2023": 48817
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 39512,
+            "God_2011": 38462,
+            "God_2012": 38261,
+            "God_2013": 37653,
+            "God_2014": 37678,
+            "God_2015": 37082,
+            "God_2016": 38293,
+            "God_2017": 38808,
+            "God_2018": 40091,
+            "God_2019": 40956,
+            "God_2020": 41566,
+            "God_2021": 40801,
+            "God_2022": 41494,
+            "God_2023": 43660
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 43.7,
+            "2020_FEMALE": 56.3,
+            "2021_MALE": 43.6,
+            "2021_FEMALE": 56.4,
+            "2022_MALE": 43.7,
+            "2022_FEMALE": 56.3,
+            "2019_MALE": 42.8,
+            "2019_FEMALE": 57.2
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1114,
+              "God_2021": 1150,
+              "God_2022": 1263,
+              "God_2023": 1458
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 831,
+              "God_2021": 851,
+              "God_2022": 974,
+              "God_2023": 1222
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1234,
+              "God_2021": 1295,
+              "God_2022": 1365,
+              "God_2023": 1560
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 918,
+              "God_2021": 946,
+              "God_2022": 1020,
+              "God_2023": 1213
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1528,
+              "God_2021": 1574,
+              "God_2022": 1586,
+              "God_2023": 1689
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1042,
+              "God_2021": 1080,
+              "God_2022": 1144,
+              "God_2023": 1249
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 931,
+              "God_2021": 995,
+              "God_2022": 1044,
+              "God_2023": 1176
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 899,
+              "God_2021": 938,
+              "God_2022": 1048,
+              "God_2023": 1193
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1236,
+              "God_2021": 1244,
+              "God_2022": 1389,
+              "God_2023": 1589
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 1018,
+              "God_2021": 1063,
+              "God_2022": 1246,
+              "God_2023": 1413
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1290,
+              "God_2021": 1337,
+              "God_2022": 1469,
+              "God_2023": 1697
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1357,
+              "God_2021": 1365,
+              "God_2022": 1452,
+              "God_2023": 1623
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 1100,
+              "God_2021": 1079,
+              "God_2022": 1241,
+              "God_2023": 1421
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1080,
+              "God_2021": 1111,
+              "God_2022": 1193,
+              "God_2023": 1412
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 1041,
+              "God_2021": 969,
+              "God_2022": 1141,
+              "God_2023": 1361
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1324,
+              "God_2021": 1359,
+              "God_2022": 1457,
+              "God_2023": 1741
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1246,
+              "God_2021": 1313,
+              "God_2022": 1386,
+              "God_2023": 1585
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1541,
+              "God_2021": 1597,
+              "God_2022": 1718,
+              "God_2023": 1991
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1050,
+              "God_2021": 1066,
+              "God_2022": 1184,
+              "God_2023": 1403
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 923,
+              "God_2021": 935,
+              "God_2022": 1043,
+              "God_2023": 1194
+            }
+          ]  
+        },
+        {
+          "id": "ME",
+          "stopa" : {
+              "God_2010": 16.5981299823,
+              "God_2011": 16.7687105912,
+              "God_2012": 17.987593167,
+              "God_2013": 18.6661521349,
+              "God_2014": 18.7,
+              "God_2015": 14.6687240814,
+              "God_2016": 12.0819848975,
+              "God_2017": 9.7094912459,
+              "God_2018": 6.5,
+              "God_2019": 5.4,
+              "God_2020": 5.5,
+              "God_2021": 5.6,
+              "God_2022": 4.5,
+              "God_2023": 4.9
+          }, 
+          "nezaposlenost": {
+              "God_2010": 7225,
+              "God_2011": 7340,
+              "God_2012": 7771,
+              "God_2013": 8223,
+              "God_2014": 8112,
+              "God_2015": 6084,
+              "God_2016": 5040,
+              "God_2017": 4004,
+              "God_2018": 2667,
+              "God_2019": 2148,
+              "God_2020": 2213,
+              "God_2021": 2346,
+              "God_2022": 1890,
+              "God_2023": 2103
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 1633,
+            "God_2011": 1503,
+            "God_2012": 1413,
+            "God_2013": 1262,
+            "God_2014": 1141,
+            "God_2015": 1074,
+            "God_2016": 1011,
+            "God_2017": 973,
+            "God_2018": 941,
+            "God_2019": 910,
+            "God_2020": 874,
+            "God_2021": 839,
+            "God_2022": 780,
+            "God_2023": 734
+          },
+          "zaposleni_obrt": {
+            "God_2010": 5265,
+            "God_2011": 4825,
+            "God_2012": 4639,
+            "God_2013": 4393,
+            "God_2014": 4179,
+            "God_2015": 4015,
+            "God_2016": 3917,
+            "God_2017": 3733,
+            "God_2018": 3640,
+            "God_2019": 3578,
+            "God_2020": 3592,
+            "God_2021": 3520,
+            "God_2022": 3618,
+            "God_2023": 3523
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010": 29406,
+            "God_2011": 30104,
+            "God_2012": 29379,
+            "God_2013": 30175,
+            "God_2014": 29880,
+            "God_2015": 30303,
+            "God_2016": 31747,
+            "God_2017": 32528,
+            "God_2018": 33981,
+            "God_2019": 33225,
+            "God_2020": 33878,
+            "God_2021": 35454,
+            "God_2022": 35535,
+            "God_2023": 36840
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 43529,
+            "God_2011": 43772,
+            "God_2012": 43202,
+            "God_2013": 44053,
+            "God_2014": 43312,
+            "God_2015": 41476,
+            "God_2016": 41715,
+            "God_2017": 41238,
+            "God_2018": 41229,
+            "God_2019": 39861,
+            "God_2020": 40557,
+            "God_2021": 42159,
+            "God_2022": 41823,
+            "God_2023": 43200
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 36304,
+            "God_2011": 36432,
+            "God_2012": 35431,
+            "God_2013": 35830,
+            "God_2014": 35200,
+            "God_2015": 35392,
+            "God_2016": 36675,
+            "God_2017": 37234,
+            "God_2018": 38562,
+            "God_2019": 37713,
+            "God_2020": 38344,
+            "God_2021": 39813,
+            "God_2022": 39933,
+            "God_2023": 41097
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 42.2,
+            "2020_FEMALE": 57.8,
+            "2021_MALE": 43.4,
+            "2021_FEMALE": 56.6,
+            "2022_MALE": 43.8,
+            "2022_FEMALE": 56.2,
+            "2019_MALE": 42.4,
+            "2019_FEMALE": 57.6
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1074,
+              "God_2021": 1131,
+              "God_2022": 1231,
+              "God_2023": 1420
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 956,
+              "God_2021": 1000,
+              "God_2022": 1125,
+              "God_2023": 1282
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1198,
+              "God_2021": 1224,
+              "God_2022": 1212,
+              "God_2023": 1469
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1052,
+              "God_2021": 1118,
+              "God_2022": 1233,
+              "God_2023": 1401
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1521,
+              "God_2021": 1608,
+              "God_2022": 1635,
+              "God_2023": 1812
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1009,
+              "God_2021": 1063,
+              "God_2022": 1136,
+              "God_2023": 1324
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 886,
+              "God_2021": 917,
+              "God_2022": 1023,
+              "God_2023": 1200
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 914,
+              "God_2021": 965,
+              "God_2022": 1057,
+              "God_2023": 1215
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 969,
+              "God_2021": 997,
+              "God_2022": 1092,
+              "God_2023": 1266
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 744,
+              "God_2021": 779,
+              "God_2022": 881,
+              "God_2023": 1049
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1416,
+              "God_2021": 1539,
+              "God_2022": 1730,
+              "God_2023": 1980
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1501,
+              "God_2021": 1547,
+              "God_2022": 1653,
+              "God_2023": 1848
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 911,
+              "God_2021": 1004,
+              "God_2022": 997,
+              "God_2023": 1284
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1138,
+              "God_2021": 1209,
+              "God_2022": 1289,
+              "God_2023": 1465
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 871,
+              "God_2021": 836,
+              "God_2022": 827,
+              "God_2023": 1043
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1373,
+              "God_2021": 1425,
+              "God_2022": 1549,
+              "God_2023": 1796
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1213,
+              "God_2021": 1291,
+              "God_2022": 1374,
+              "God_2023": 1579
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1391,
+              "God_2021": 1487,
+              "God_2022": 1541,
+              "God_2023": 1795
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 938,
+              "God_2021": 1001,
+              "God_2022": 1080,
+              "God_2023": 1246
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 801,
+              "God_2021": 844,
+              "God_2022": 906,
+              "God_2023": 1029
+            }
+          ]  
+        },
+        {
+          "id": "GZ",
+          "stopa" : {
+              "God_2010": 8.3656998909,
+              "God_2011": 9.4289693276,
+              "God_2012": 9.4992955334,
+              "God_2013": 10.7548385917,
+              "God_2014": 11.2,
+              "God_2015": 9.6167576941,
+              "God_2016": 8.2275791157,
+              "God_2017": 6.4318581905,
+              "God_2018": 4.7,
+              "God_2019": 3.7,
+              "God_2020": 3.7,
+              "God_2021": 4.3,
+              "God_2022": 3.1,
+              "God_2023": 2.6
+          }, 
+          "nezaposlenost": {
+              "God_2010":  37327,
+              "God_2011":  41368,
+              "God_2012":  41869,
+              "God_2013":  47055,
+              "God_2014":  48243,
+              "God_2015":  41484,
+              "God_2016":  36008,
+              "God_2017":  28389,
+              "God_2018":  21341,
+              "God_2019":  17050,
+              "God_2020":  16648,
+              "God_2021":  19787,
+              "God_2022":  14225,
+              "God_2023":  12518
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 621,
+            "God_2011": 587,
+            "God_2012": 575,
+            "God_2013": 540,
+            "God_2014": 527,
+            "God_2015": 518,
+            "God_2016": 509,
+            "God_2017": 515,
+            "God_2018": 520,
+            "God_2019": 518,
+            "God_2020": 514,
+            "God_2021": 504,
+            "God_2022": 495,
+            "God_2023": 454
+          },
+          "zaposleni_obrt": {
+            "God_2010": 40479,
+            "God_2011": 37348,
+            "God_2012": 35426,
+            "God_2013": 33864,
+            "God_2014": 31521,
+            "God_2015": 30082,
+            "God_2016": 29502,
+            "God_2017": 29008,
+            "God_2018": 29216,
+            "God_2019": 29578,
+            "God_2020": 30015,
+            "God_2021": 29988,
+            "God_2022": 30159,
+            "God_2023": 30678
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010":  367764,
+            "God_2011":  359430,
+            "God_2012":  362889,
+            "God_2013":  356065,
+            "God_2014":  351919,
+            "God_2015":  359288,
+            "God_2016":  371631,
+            "God_2017":  383469,
+            "God_2018":  399809,
+            "God_2019":  407528,
+            "God_2020":  407117,
+            "God_2021":  407857,
+            "God_2022":  418944,
+            "God_2023":  433879
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 446191,
+            "God_2011": 438733,
+            "God_2012": 440759,
+            "God_2013": 437524,
+            "God_2014": 432210,
+            "God_2015": 431372,
+            "God_2016": 437650,
+            "God_2017": 441381,
+            "God_2018": 450886,
+            "God_2019": 454674,
+            "God_2020": 454294,
+            "God_2021": 458136,
+            "God_2022": 463823,
+            "God_2023": 477529
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 408864,
+            "God_2011": 397365,
+            "God_2012": 398890,
+            "God_2013": 390469,
+            "God_2014": 383967,
+            "God_2015": 389888,
+            "God_2016": 401642,
+            "God_2017": 412992,
+            "God_2018": 429545,
+            "God_2019": 437624,
+            "God_2020": 437646,
+            "God_2021": 438349,
+            "God_2022": 449598,
+            "God_2023": 465011
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 48.9,
+            "2020_FEMALE": 51.1,
+            "2021_MALE": 49.2,
+            "2021_FEMALE": 50.8,
+            "2022_MALE": 48.3,
+            "2022_FEMALE": 51.7,
+            "2019_MALE": 48.5,
+            "2019_FEMALE": 51.5
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1528,
+              "God_2021": 1592,
+              "God_2022": 1710,
+              "God_2023": 1934
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1284,
+              "God_2021": 1340,
+              "God_2022": 1418,
+              "God_2023": 1611
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1955,
+              "God_2021": 1999,
+              "God_2022": 2299,
+              "God_2023": 2471
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 1578,
+              "God_2021": 1631,
+              "God_2022": 1730,
+              "God_2023": 1925
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1889,
+              "God_2021": 1945,
+              "God_2022": 2059,
+              "God_2023": 2282
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1373,
+              "God_2021": 1404,
+              "God_2022": 1443,
+              "God_2023": 1635
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 1102,
+              "God_2021": 1120,
+              "God_2022": 1215,
+              "God_2023": 1418
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 1370,
+              "God_2021": 1442,
+              "God_2022": 1566,
+              "God_2023": 1769
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 1390,
+              "God_2021": 1410,
+              "God_2022": 1520,
+              "God_2023": 1729
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 859,
+              "God_2021": 912,
+              "God_2022": 1028,
+              "God_2023": 1203
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1930,
+              "God_2021": 2066,
+              "God_2022": 2274,
+              "God_2023": 2520
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 2244,
+              "God_2021": 2280,
+              "God_2022": 2433,
+              "God_2023": 2618
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 1321,
+              "God_2021": 1414,
+              "God_2022": 1515,
+              "God_2023": 1733
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1590,
+              "God_2021": 1671,
+              "God_2022": 1805,
+              "God_2023": 2036
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 1039,
+              "God_2021": 1052,
+              "God_2022": 1199,
+              "God_2023": 1396
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1727,
+              "God_2021": 1795,
+              "God_2022": 1892,
+              "God_2023": 2157
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1478,
+              "God_2021": 1553,
+              "God_2022": 1625,
+              "God_2023": 1832
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1723,
+              "God_2021": 1828,
+              "God_2022": 1925,
+              "God_2023": 2233
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 1334,
+              "God_2021": 1390,
+              "God_2022": 1497,
+              "God_2023": 1693
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 1116,
+              "God_2021": 1153,
+              "God_2022": 1253,
+              "God_2023": 1449
+            }
+          ] 
+        },
+        {
+          "id": "PZ",
+          "stopa" : {
+              "God_2010": 24.4242594751,
+              "God_2011": 26.2405279883,
+              "God_2012": 27.5949782555,
+              "God_2013": 30.4714844554,
+              "God_2014": 31.4,
+              "God_2015": 26.1645586356,
+              "God_2016": 22.8294383127,
+              "God_2017": 18.979628956,
+              "God_2018": 16.5,
+              "God_2019": 12.7,
+              "God_2020": 12.9,
+              "God_2021": 12.9,
+              "God_2022": 11.9,
+              "God_2023": 10.7
+          }, 
+          "nezaposlenost": {
+              "God_2010":  6077,
+              "God_2011":  6441,
+              "God_2012":  6726,
+              "God_2013":  7400,
+              "God_2014":  7668,
+              "God_2015":  5937,
+              "God_2016":  5109,
+              "God_2017":  4174,
+              "God_2018":  3445,
+              "God_2019":  2703,
+              "God_2020":  2756,
+              "God_2021":  2695,
+              "God_2022":  2534,
+              "God_2023":  2226
+          }, 
+          "aktivni_osiguranici": {
+            "God_2010": 783,
+            "God_2011": 746,
+            "God_2012": 716,
+            "God_2013": 651,
+            "God_2014": 583,
+            "God_2015": 543,
+            "God_2016": 539,
+            "God_2017": 522,
+            "God_2018": 528,
+            "God_2019": 521,
+            "God_2020": 521,
+            "God_2021": 547,
+            "God_2022": 572,
+            "God_2023": 547
+          },
+          "zaposleni_obrt": {
+            "God_2010": 3230,
+            "God_2011": 3083,
+            "God_2012": 2934,
+            "God_2013": 2853,
+            "God_2014": 2813,
+            "God_2015": 2732,
+            "God_2016": 2780,
+            "God_2017": 2757,
+            "God_2018": 2876,
+            "God_2019": 2878,
+            "God_2020": 2800,
+            "God_2021": 2870,
+            "God_2022": 3034,
+            "God_2023": 2982
+          }, 
+          "zaposleni_pravnim_osobama": {
+            "God_2010":  14791,
+            "God_2011":  14276,
+            "God_2012":  13998,
+            "God_2013":  13381,
+            "God_2014":  13358,
+            "God_2015":  13479,
+            "God_2016":  13951,
+            "God_2017":  14539,
+            "God_2018":  14081,
+            "God_2019":  15169,
+            "God_2020":  15223,
+            "God_2021":  14839,
+            "God_2022":  15091,
+            "God_2023":  15020
+          }, 
+          "aktivno_stanovnistvo" : {
+            "God_2010": 24881,
+            "God_2011": 24546,
+            "God_2012": 24374,
+            "God_2013": 24285,
+            "God_2014": 24422,
+            "God_2015": 22691,
+            "God_2016": 22379,
+            "God_2017": 21992,
+            "God_2018": 20930,
+            "God_2019": 21271,
+            "God_2020": 21300,
+            "God_2021": 20951,
+            "God_2022": 21231,
+            "God_2023": 20775
+          },
+          "ukupno_zaposleni" : {
+            "God_2010": 18804,
+            "God_2011": 18105,
+            "God_2012": 17648,
+            "God_2013": 16885,
+            "God_2014": 16754,
+            "God_2015": 16754,
+            "God_2016": 17270,
+            "God_2017": 17818,
+            "God_2018": 17485,
+            "God_2019": 18568,
+            "God_2020": 18544,
+            "God_2021": 18256,
+            "God_2022": 18697,
+            "God_2023": 18549
+          }, 
+          "udio_reg_nezaposlenosti": {
+            "2020_MALE": 42.2,
+            "2020_FEMALE": 57.8,
+            "2021_MALE": 39.6,
+            "2021_FEMALE": 60.4,
+            "2022_MALE": 36.8,
+            "2022_FEMALE": 63.2,
+            "2019_MALE": 42.2,
+            "2019_FEMALE": 57.8
+          },
+          "placa_prema_dijelatnostima": [
+            {
+              "dijelatnosti": "Ukupno",
+              "God_2020": 1064,
+              "God_2021": 1101,
+              "God_2022": 1191,
+              "God_2023": 1376
+            },
+            {
+              "dijelatnosti": "A  Poljoprivreda, šumarstvo i ribarstvo",
+              "God_2020": 1053,
+              "God_2021": 1098,
+              "God_2022": 1259,
+              "God_2023": 1447
+            },
+            {
+              "dijelatnosti": "B  Rudarstvo i vađenje",
+              "God_2020": 1074,
+              "God_2021": 1169,
+              "God_2022": 1214,
+              "God_2023": 1382
+            },
+            {
+              "dijelatnosti": "C  Prerađivačka industrija",
+              "God_2020": 881,
+              "God_2021": 931,
+              "God_2022": 1049,
+              "God_2023": 1168
+            },
+            {
+              "dijelatnosti": "D  Opskrba električnom energijom, plinom, parom i klimatizacija",
+              "God_2020": 1438,
+              "God_2021": 1496,
+              "God_2022": 1579,
+              "God_2023": 1759
+            },
+            {
+              "dijelatnosti": "E  Opskrba vodom; uklanjanje otpadnih voda, gospodarenje otpadom te djelatnosti sanacije okoliša",
+              "God_2020": 1177,
+              "God_2021": 1201,
+              "God_2022": 1275,
+              "God_2023": 1392
+            },
+            {
+              "dijelatnosti": "F  Građevinarstvo",
+              "God_2020": 955,
+              "God_2021": 970,
+              "God_2022": 1012,
+              "God_2023": 1209
+            },
+            {
+              "dijelatnosti": "G  Trgovina na veliko i na malo; popravak motornih vozila i motocikla",
+              "God_2020": 860,
+              "God_2021": 903,
+              "God_2022": 997,
+              "God_2023": 1142
+            },
+            {
+              "dijelatnosti": "H  Prijevoz i skladištenje",
+              "God_2020": 878,
+              "God_2021": 895,
+              "God_2022": 982,
+              "God_2023": 1136
+            },
+            {
+              "dijelatnosti": "I  Djelatnosti pružanja smještaja te pripreme i usluživanja hrane",
+              "God_2020": 765,
+              "God_2021": 809,
+              "God_2022": 910,
+              "God_2023": 1067
+            },
+            {
+              "dijelatnosti": "J  Informacije i komunikacije",
+              "God_2020": 1385,
+              "God_2021": 1417,
+              "God_2022": 1465,
+              "God_2023": 1657
+            },
+            {
+              "dijelatnosti": "K  Financijske djelatnosti i djelatnosti osiguranja",
+              "God_2020": 1297,
+              "God_2021": 1327,
+              "God_2022": 1422,
+              "God_2023": 1565
+            },
+            {
+              "dijelatnosti": "L  Poslovanje nekretninama",
+              "God_2020": 949,
+              "God_2021": 1191,
+              "God_2022": 1270,
+              "God_2023": 1452
+            },
+            {
+              "dijelatnosti": "M  Stručne, znanstvene i tehničke djelatnosti",
+              "God_2020": 1095,
+              "God_2021": 1112,
+              "God_2022": 1226,
+              "God_2023": 1378
+            },
+            {
+              "dijelatnosti": "N  Administrativne i pomoćne uslužne djelatnosti",
+              "God_2020": 775,
+              "God_2021": 790,
+              "God_2022": 875,
+              "God_2023": 1007
+            },
+            {
+              "dijelatnosti": "O  Javna uprava i obrana; obvezno socijalno osiguranje",
+              "God_2020": 1303,
+              "God_2021": 1352,
+              "God_2022": 1453,
+              "God_2023": 1693
+            },
+            {
+              "dijelatnosti": "P  Obrazovanje",
+              "God_2020": 1217,
+              "God_2021": 1291,
+              "God_2022": 1367,
+              "God_2023": 1567
+            },
+            {
+              "dijelatnosti": "Q  Djelatnosti zdravstvene zaštite i socijalne skrbi",
+              "God_2020": 1401,
+              "God_2021": 1443,
+              "God_2022": 1501,
+              "God_2023": 1785
+            },
+            {
+              "dijelatnosti": "R  Umjetnost, zabava i rekreacija",
+              "God_2020": 971,
+              "God_2021": 1014,
+              "God_2022": 1081,
+              "God_2023": 1236
+            },
+            {
+              "dijelatnosti": "S  Ostale uslužne djelatnosti",
+              "God_2020": 759,
+              "God_2021": 744,
+              "God_2022": 918,
+              "God_2023": 1052
+            }
+          ]
+        } 
+]
